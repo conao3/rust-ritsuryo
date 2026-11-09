@@ -1,28 +1,54 @@
+<p align="center">
+  <img src="docs/assets/banner.png" alt="rust-ritsuryo: Japanese statutory periods and taxes for Rust and the browser, compiled from proved Lean 4 code" width="880">
+</p>
+
+<p align="center"><strong>Proved Japanese statutory computation, in Rust and the browser</strong></p>
+
+<p align="center">
+  <a href="https://crates.io/crates/ritsuryo"><img src="https://img.shields.io/crates/v/ritsuryo" alt="crates.io"></a>
+  <a href="https://github.com/conao3/rust-ritsuryo/actions/workflows/ci.yml"><img src="https://github.com/conao3/rust-ritsuryo/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/conao3/rust-ritsuryo" alt="License: Apache-2.0"></a>
+  <a href="Cargo.toml"><img src="https://img.shields.io/badge/Rust-edition%202024-orange" alt="Rust edition 2024"></a>
+  <a href="lean/lean-toolchain"><img src="https://img.shields.io/badge/Lean-v4.35.0-blue" alt="Lean v4.35.0"></a>
+  <a href="https://github.com/conao3/rust-ritsuryo/stargazers"><img src="https://img.shields.io/github/stars/conao3/rust-ritsuryo?style=flat" alt="GitHub stars"></a>
+</p>
+
+<p align="center">
+  <a href="https://conao3.github.io/rust-ritsuryo/">Web page</a> ·
+  <a href="https://crates.io/crates/ritsuryo">crates.io</a> ·
+  <a href="#use">Use</a> ·
+  <a href="#layout">Layout</a> ·
+  <a href="#development">Development</a> ·
+  <a href="https://github.com/conao3/lean-ritsuryo">lean-ritsuryo</a>
+</p>
+
 # rust-ritsuryo
 
-Japanese statutory periods and taxes for Rust and the browser, computed by the Lean 4 library
-[lean-ritsuryo](https://github.com/conao3/lean-ritsuryo), whose functions are proved to compute
-what the provisions say. [lean-rs](https://github.com/conao3/lean-rs) compiles the Lean code to
-Rust, and the Rust compiles to WebAssembly: the same proved code runs as a Rust crate and in a web
-page, with neither Lean nor a server.
-
-- `crates/ritsuryo`: the crate `ritsuryo`. `invoke` runs any subcommand of the `ritsuryo` CLI on
-  JSON parameters and returns the JSON the CLI prints; `holiday` and `income_tax` call the
-  library functions with Rust types. See [its README](crates/ritsuryo/README.md).
-- `crates/ritsuryo-wasm`: the crate for JavaScript (wasm-bindgen): `invoke`, `describe`,
-  `isHoliday`.
-- `web/`: a page that builds a form for every subcommand from the command table and computes in
-  WebAssembly in the browser.
-- `lean/`: the Lean package that requires lean-ritsuryo (pinned to a commit) and defines the
-  exported functions (`RitsuryoRs/Api.lean`). `crates/ritsuryo/src/generated/` is generated from
-  it and committed, so building the crates needs only cargo.
+rust-ritsuryo computes Japanese statutory periods and taxes in Rust and in the browser. The code
+comes from the Lean 4 library [lean-ritsuryo](https://github.com/conao3/lean-ritsuryo), which
+proves that its functions compute what the provisions say.
+[lean-rs](https://github.com/conao3/lean-rs) compiles that Lean code to Rust, and the Rust compiles
+to WebAssembly. You run the same proved code as a Rust crate or in a web page, without Lean or a
+server.
 
 ## Use
 
-The web page: https://conao3.github.io/rust-ritsuryo/
+### In the browser
+
+Open https://conao3.github.io/rust-ritsuryo/. The page builds a form for each subcommand and
+computes in WebAssembly on your machine.
+
+To serve the page yourself:
 
 ```
 nix run github:conao3/rust-ritsuryo   # serves the web page on http://localhost:8080 (PORT to change)
+```
+
+### From Rust
+
+```toml
+[dependencies]
+ritsuryo = "0.1.0"
 ```
 
 ```rust
@@ -34,9 +60,24 @@ let out = ritsuryo::invoke(
 assert_eq!(out["Result"]["Payable"], 584_500);
 ```
 
-The parameters are the CLI's, with names in PascalCase (`--taxable-income` is `TaxableIncome`).
-A failure carries the CLI's exit code: 252 for a wrong command or parameter, 254 for an input
-outside the range the computation handles, 255 otherwise.
+`invoke` takes the CLI's parameters, with names in PascalCase (`--taxable-income` is
+`TaxableIncome`). A failure carries the CLI's exit code: 252 for a wrong command or parameter, 254
+for an input outside the range the computation handles, 255 otherwise.
+
+The crate's [README](crates/ritsuryo/README.md) covers the typed modules `holiday` and
+`income_tax`.
+
+## Layout
+
+| Path | Contents |
+| --- | --- |
+| `crates/ritsuryo` | The crate `ritsuryo`. `invoke` runs any subcommand of the `ritsuryo` CLI on JSON parameters and returns the JSON the CLI prints; `holiday` and `income_tax` call the library functions with Rust types. |
+| `crates/ritsuryo-wasm` | The crate for JavaScript (wasm-bindgen): `invoke`, `describe`, `isHoliday`. |
+| `web/` | A page that builds a form for every subcommand from the command table and computes in WebAssembly in the browser. |
+| `lean/` | The Lean package that requires lean-ritsuryo (pinned to a commit) and defines the exported functions (`RitsuryoRs/Api.lean`). |
+
+`make generate` writes `crates/ritsuryo/src/generated/` from the Lean package, and the repository
+commits that output, so you build the crates with cargo alone.
 
 ## Development
 
@@ -53,4 +94,4 @@ and `make generate`.
 
 ## License
 
-Apache-2.0
+Apache-2.0. See [LICENSE](LICENSE).
