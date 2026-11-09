@@ -178,6 +178,18 @@ select {
   border-radius: 6px;
 }
 
+input[type="date"] {
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  min-width: 0;
+  max-width: 100%;
+}
+
+input[type="date"]::-webkit-date-and-time-value {
+  text-align: left;
+}
+
 input:focus-visible,
 select:focus-visible,
 button:focus-visible {
