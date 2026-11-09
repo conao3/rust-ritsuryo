@@ -19,6 +19,8 @@ page, with neither Lean nor a server.
 
 ## Use
 
+The web page: https://conao3.github.io/rust-ritsuryo/
+
 ```
 nix run github:conao3/rust-ritsuryo   # serves the web page on http://localhost:8080 (PORT to change)
 ```
