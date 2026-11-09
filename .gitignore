@@ -1,0 +1,6 @@
+/target
+/result
+/dist
+/web/pkg
+.claude-dev
+.direnv

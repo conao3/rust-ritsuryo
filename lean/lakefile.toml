@@ -1,0 +1,13 @@
+name = "ritsuryo_rs"
+defaultTargets = ["RitsuryoRs"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "ritsuryo"
+git = "https://github.com/conao3/lean-ritsuryo"
+rev = "16b727bf483434b9aa7d35a81d6acf32f85dfb54"
+
+[[lean_lib]]
+name = "RitsuryoRs"
