@@ -53,10 +53,7 @@
             pname = "ritsuryo-web";
             version = "0.1.0";
             inherit src;
-            cargoLock = {
-              lockFile = ./Cargo.lock;
-              allowBuiltinFetchGit = true;
-            };
+            cargoLock.lockFile = ./Cargo.lock;
             nativeBuildInputs = [
               pkgs.wasm-bindgen-cli
               pkgs.binaryen

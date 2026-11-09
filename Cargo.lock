@@ -98,8 +98,9 @@ checksum = "3bd1574e617a9a6c1f8f8181bd7e841e1f20e4277607ef28945765188d6284d4"
 
 [[package]]
 name = "lean-rust"
-version = "0.2.1"
-source = "git+https://github.com/conao3/lean-rs?rev=0abd52f702b32af5177871a643ffe55e28a2881f#0abd52f702b32af5177871a643ffe55e28a2881f"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d9e68a409ec646dbf9e9efec2d67a996ff06d8cd8a63874ee66176eeea4bfc4c"
 dependencies = [
  "lean-rust-macros",
  "lean-rust-runtime",
@@ -107,8 +108,9 @@ dependencies = [
 
 [[package]]
 name = "lean-rust-build"
-version = "0.2.1"
-source = "git+https://github.com/conao3/lean-rs?rev=0abd52f702b32af5177871a643ffe55e28a2881f#0abd52f702b32af5177871a643ffe55e28a2881f"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2bd6c77db3a93f0b3da908752fe7ad7629f54b755324ba6c25deab90b94fe5f9"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -121,8 +123,9 @@ dependencies = [
 
 [[package]]
 name = "lean-rust-macros"
-version = "0.2.1"
-source = "git+https://github.com/conao3/lean-rs?rev=0abd52f702b32af5177871a643ffe55e28a2881f#0abd52f702b32af5177871a643ffe55e28a2881f"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3ab5106d0aa9967be49f4bccac3bff693a56cac91e7e03c2c9d1d4e0f1ad7644"
 dependencies = [
  "lean-rust-build",
  "proc-macro2",
@@ -132,8 +135,9 @@ dependencies = [
 
 [[package]]
 name = "lean-rust-runtime"
-version = "0.2.1"
-source = "git+https://github.com/conao3/lean-rs?rev=0abd52f702b32af5177871a643ffe55e28a2881f#0abd52f702b32af5177871a643ffe55e28a2881f"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4d4f097db27cda0f7cc0b789456389424c538f24e5f8a375b76053a4681ec1a3"
 dependencies = [
  "libc",
  "libm",

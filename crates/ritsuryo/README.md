@@ -5,6 +5,11 @@ Japanese statutory periods and taxes, computed by the Lean 4 library
 what the provisions say. [lean-rs](https://github.com/conao3/lean-rs) compiles the Lean code to
 Rust, so this crate builds with cargo alone: it needs neither Lean nor a C compiler.
 
+```toml
+[dependencies]
+ritsuryo = "0.1.0"
+```
+
 ```rust
 use serde_json::json;
 

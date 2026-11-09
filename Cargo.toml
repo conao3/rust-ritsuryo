@@ -9,8 +9,5 @@ license = "Apache-2.0"
 repository = "https://github.com/conao3/rust-ritsuryo"
 
 [workspace.dependencies]
-lean-rust = { version = "0.2.1", default-features = false }
+lean-rust = { version = "0.3.0", default-features = false }
 serde_json = "1"
-
-[patch.crates-io]
-lean-rust = { git = "https://github.com/conao3/lean-rs", rev = "0abd52f702b32af5177871a643ffe55e28a2881f" }
