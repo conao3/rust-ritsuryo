@@ -5,7 +5,7 @@ mod generated;
 use std::fmt;
 
 use generated::ritsuryo_rs_api as api;
-use lean_rust::{Int, Nat};
+use leanfran::{Int, Nat};
 
 /// The format of the output of [`invoke_rendered`], as the CLI's `--output` takes it.
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]

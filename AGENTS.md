@@ -4,7 +4,7 @@
 
 - `lean/RitsuryoRs/Api.lean` defines the functions exported to Rust; its public definitions are
   the roots of the generated module. Helpers are `private` so that they are not exported.
-- `crates/ritsuryo/src/generated/` is the output of `make generate` (lean-rust `project
+- `crates/ritsuryo/src/generated/` is the output of `make generate` (leanfran `project
   generate`). Do not edit it by hand; regenerate and commit it with the Lean change.
 - `crates/ritsuryo` wraps the generated functions in a Rust API; `crates/ritsuryo-wasm` exposes
   them to JavaScript; `web/` is the page and `web/test.mjs` its node test.
@@ -22,5 +22,5 @@
 ## Conventions
 
 - Commit messages, comments and docs in English; the web page's text in Japanese.
-- The Lean toolchain and the `lean-rust` CLI come from the dev shell (nixpkgs `lean4` and the
-  lean-rs flake), so the `.olean` files and the CLI agree.
+- The Lean toolchain and the `leanfran` CLI come from the dev shell (nixpkgs `lean4` and the
+  lean-leanfran flake), so the `.olean` files and the CLI agree.

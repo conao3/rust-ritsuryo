@@ -9,8 +9,8 @@
       url = "github:oxalica/rust-overlay";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    lean-rs = {
-      url = "github:conao3/lean-rs";
+    leanfran = {
+      url = "github:conao3/lean-leanfran/e46c9e81b0cc92a6aa0997a8cb15b36d1d0f5438";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -81,7 +81,7 @@
             packages = [
               rust
               pkgs.lean4
-              inputs.lean-rs.packages.${system}.lean-rust
+              inputs.leanfran.packages.${system}.rust-compiler
               pkgs.wasm-bindgen-cli
               pkgs.binaryen
               pkgs.nodejs

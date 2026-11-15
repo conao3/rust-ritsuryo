@@ -10,5 +10,5 @@ keywords = ["japan", "tax", "lean", "law", "holiday"]
 categories = ["date-and-time", "finance"]
 
 [dependencies]
-lean-rust.workspace = true
+leanfran.workspace = true
 serde_json.workspace = true

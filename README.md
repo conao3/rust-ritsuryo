@@ -27,7 +27,7 @@
 rust-ritsuryo computes Japanese statutory periods and taxes in Rust and in the browser. The code
 comes from the Lean 4 library [lean-ritsuryo](https://github.com/conao3/lean-ritsuryo), which
 proves that its functions compute what the provisions say.
-[lean-rs](https://github.com/conao3/lean-rs) compiles that Lean code to Rust, and the Rust compiles
+[leanfran](https://github.com/conao3/lean-leanfran) compiles that Lean code to Rust, and the Rust compiles
 to WebAssembly. You run the same proved code as a Rust crate or in a web page, without Lean or a
 server.
 

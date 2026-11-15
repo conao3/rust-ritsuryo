@@ -5,7 +5,7 @@ import Ritsuryo.Cli.Render
 /-!
 # The functions the Rust crate exports
 
-lean-rust compiles this module, with everything it calls in `ritsuryo`, to one Rust module in
+leanfran compiles this module, with everything it calls in `ritsuryo`, to one Rust module in
 `crates/ritsuryo/src/generated/`.
 
 - `invoke` runs a subcommand of the `ritsuryo` CLI on parameters given as a JSON object, through

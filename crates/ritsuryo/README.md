@@ -2,7 +2,7 @@
 
 Japanese statutory periods and taxes, computed by the Lean 4 library
 [lean-ritsuryo](https://github.com/conao3/lean-ritsuryo), whose functions are proved to compute
-what the provisions say. [lean-rs](https://github.com/conao3/lean-rs) compiles the Lean code to
+what the provisions say. [leanfran](https://github.com/conao3/lean-leanfran) compiles the Lean code to
 Rust, so this crate builds with cargo alone: it needs neither Lean nor a C compiler.
 
 ```toml

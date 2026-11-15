@@ -1,4 +1,4 @@
-LEAN_RUST ?= lean-rust
+LEAN_RUST ?= leanfran
 WASM_TARGET := target/wasm32-unknown-unknown/release/ritsuryo_wasm.wasm
 WEB_DIST ?= dist
 
