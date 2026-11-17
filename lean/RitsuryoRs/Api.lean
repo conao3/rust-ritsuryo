@@ -134,4 +134,58 @@ def holidays (year : Int) : List HolidayEntry :=
 def incomeTax (year ordinary retirement timber : Nat) : Tax.Income.Result :=
   Tax.Income.compute year ordinary retirement timber
 
+theorem invoke_unknown_command (command subcommand paramsJson : String)
+    (h : commands.find? (·.name == command) = none) :
+    match invoke command subcommand paramsJson "json" with
+    | .error e => e.code = 252
+    | .ok _ => False := by
+  simp only [invoke, invokeCore, outputFormatOf, bind, pure, Except.pure, Except.bind, h]
+  rfl
+
+theorem isHoliday_iff_mem_holidays (year : Int) (month day : Nat) :
+    isHoliday year month day = true ↔
+      ∃ e ∈ holidays year, e.month = month ∧ e.day = day := by
+  simp only [isHoliday, Holiday.isHoliday, Holiday.entry?, List.find?_isSome,
+    Bool.and_eq_true, beq_iff_eq, holidays, List.mem_map]
+  constructor
+  · rintro ⟨e, he, hm, hd⟩
+    exact ⟨⟨e.month, e.day, e.name, kindText e.kind⟩, ⟨e, he, rfl⟩, hm, hd⟩
+  · rintro ⟨_, ⟨e, he, rfl⟩, hm, hd⟩
+    exact ⟨e, he, hm, hd⟩
+
+theorem holidayYearInRange_iff (year : Int) :
+    holidayYearInRange year = true ↔ 1955 ≤ year ∧ year ≤ 2027 := by
+  simp only [holidayYearInRange, Holiday.inRange, Holiday.Data.firstYear,
+    Holiday.Data.lastYear, Bool.and_eq_true]
+  constructor
+  · rintro ⟨h₁, h₂⟩
+    exact ⟨of_decide_eq_true h₁, of_decide_eq_true h₂⟩
+  · rintro ⟨h₁, h₂⟩
+    exact ⟨decide_eq_true h₁, decide_eq_true h₂⟩
+
+theorem holidays_length (year : Int) :
+    (holidays year).length = (Holiday.entriesOf year).length := by
+  simp [holidays]
+
+theorem incomeTax_bases (year ordinary retirement timber : Nat) :
+    let r := incomeTax year ordinary retirement timber
+    (r.ordinaryBase ≤ ordinary ∧ ordinary < r.ordinaryBase + 1000 ∧
+      r.ordinaryBase % 1000 = 0) ∧
+    (r.retirementBase ≤ retirement ∧ retirement < r.retirementBase + 1000 ∧
+      r.retirementBase % 1000 = 0) ∧
+    (r.timberBase ≤ timber ∧ timber < r.timberBase + 1000 ∧
+      r.timberBase % 1000 = 0) := by
+  simp only [incomeTax, Tax.Income.compute, Tax.taxBase, Tax.floorTo]
+  omega
+
+theorem incomeTax_ordinary_spec (year ordinary retirement timber : Nat) :
+    100 * (incomeTax year ordinary retirement timber).ordinaryTax =
+      Tax.Income.incomeTaxCentsSpec (Tax.taxBase ordinary) := by
+  exact (Tax.Income.tax1_quick_eq_spec ordinary).2
+
+theorem incomeTax_timber_spec (year ordinary retirement timber : Nat) :
+    100 * (incomeTax year ordinary retirement timber).timberTax =
+      Tax.Income.timberTaxCentsSpec (Tax.taxBase timber) := by
+  exact (Tax.Income.tax5_timber timber).1
+
 end RitsuryoRs.Api

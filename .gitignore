@@ -4,3 +4,4 @@
 /web/pkg
 .claude-dev
 .direnv
+/audit/.lake

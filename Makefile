@@ -45,5 +45,9 @@ web-dist: wasm
 	cp web/index.html web/app.js web/style.css $(WEB_DIST)/
 	cp web/pkg/ritsuryo_wasm.js web/pkg/ritsuryo_wasm_bg.wasm $(WEB_DIST)/pkg/
 
+.PHONY: audit
+audit:
+	lake -d audit build --wfail
+
 .PHONY: check
-check: fmt-check lint test test-wasm
+check: fmt-check audit lint test test-wasm

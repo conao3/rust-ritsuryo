@@ -83,11 +83,15 @@ commits that output, so you build the crates with cargo alone.
 
 ```
 nix develop
-make check            # format, clippy (native and wasm32), tests, the wasm module under node
+make check            # format, Lean proofs and their audit, clippy, tests, the wasm module under node
 make generate         # build the Lean package (proofs included) and regenerate the Rust
 make check-generated  # generate, then fail if the committed Rust differs
 make web-dist         # the web page in dist/ (nix build .#web builds the same)
 ```
+
+`make check` runs [lean-assay](https://github.com/conao3/lean-assay) on the public Lean APIs
+to check that their theorems reject broken implementations; audit warnings fail the build.
+The audited properties and the serialization-only exception are listed in [AGENTS.md](AGENTS.md).
 
 To follow a new lean-ritsuryo, change `rev` in `lean/lakefile.toml`, run `lake update` in `lean/`,
 and `make generate`.
