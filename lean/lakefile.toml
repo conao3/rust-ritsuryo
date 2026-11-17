@@ -7,7 +7,7 @@ autoImplicit = false
 [[require]]
 name = "ritsuryo"
 git = "https://github.com/conao3/lean-ritsuryo"
-rev = "16b727bf483434b9aa7d35a81d6acf32f85dfb54"
+rev = "90a17bbe34a5eab654c81dbbd885e10e6ad189eb"
 
 [[lean_lib]]
 name = "RitsuryoRs"

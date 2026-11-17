@@ -5475,7 +5475,7 @@ pub(crate) unsafe fn l_Ritsuryo_Law_find_x3f(mut x_1: Obj) -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_laws___closed__99();
+    x_1 = l_Ritsuryo_laws___closed__109();
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -5498,12 +5498,322 @@ pub(crate) unsafe fn l_Ritsuryo_laws() -> Obj {
     unreachable_code,
     clippy::all
 )]
+unsafe fn l_Ritsuryo_laws___closed__109_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_laws___closed__108();
+    x_2 = l_Ritsuryo_laws___closed__3();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_laws___closed__109() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_laws___closed__109_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_laws___closed__108_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_laws___closed__107();
+    x_2 = l_Ritsuryo_laws___closed__7();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_laws___closed__108() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_laws___closed__108_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_laws___closed__107_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_laws___closed__106();
+    x_2 = l_Ritsuryo_laws___closed__11();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_laws___closed__107() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_laws___closed__107_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_laws___closed__106_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_laws___closed__105();
+    x_2 = l_Ritsuryo_laws___closed__15();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_laws___closed__106() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_laws___closed__106_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_laws___closed__105_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_laws___closed__104();
+    x_2 = l_Ritsuryo_laws___closed__19();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_laws___closed__105() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_laws___closed__105_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_laws___closed__104_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_laws___closed__103();
+    x_2 = l_Ritsuryo_laws___closed__23();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_laws___closed__104() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_laws___closed__104_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_laws___closed__103_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_laws___closed__102();
+    x_2 = l_Ritsuryo_laws___closed__27();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_laws___closed__103() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_laws___closed__103_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_laws___closed__102_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_laws___closed__101();
+    x_2 = l_Ritsuryo_laws___closed__31();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_laws___closed__102() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_laws___closed__102_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_laws___closed__101_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_laws___closed__100();
+    x_2 = l_Ritsuryo_laws___closed__35();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_laws___closed__101() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_laws___closed__101_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_laws___closed__100_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_laws___closed__99();
+    x_2 = l_Ritsuryo_laws___closed__39();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_laws___closed__100() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_laws___closed__100_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
 unsafe fn l_Ritsuryo_laws___closed__99_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_laws___closed__98();
-    x_2 = l_Ritsuryo_laws___closed__3();
+    x_2 = l_Ritsuryo_laws___closed__43();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -5534,7 +5844,7 @@ unsafe fn l_Ritsuryo_laws___closed__98_init() -> Obj {
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_laws___closed__97();
-    x_2 = l_Ritsuryo_laws___closed__7();
+    x_2 = l_Ritsuryo_laws___closed__47();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -5565,7 +5875,7 @@ unsafe fn l_Ritsuryo_laws___closed__97_init() -> Obj {
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_laws___closed__96();
-    x_2 = l_Ritsuryo_laws___closed__11();
+    x_2 = l_Ritsuryo_laws___closed__51();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -5596,7 +5906,7 @@ unsafe fn l_Ritsuryo_laws___closed__96_init() -> Obj {
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_laws___closed__95();
-    x_2 = l_Ritsuryo_laws___closed__15();
+    x_2 = l_Ritsuryo_laws___closed__55();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -5627,7 +5937,7 @@ unsafe fn l_Ritsuryo_laws___closed__95_init() -> Obj {
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_laws___closed__94();
-    x_2 = l_Ritsuryo_laws___closed__19();
+    x_2 = l_Ritsuryo_laws___closed__59();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -5658,7 +5968,7 @@ unsafe fn l_Ritsuryo_laws___closed__94_init() -> Obj {
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_laws___closed__93();
-    x_2 = l_Ritsuryo_laws___closed__23();
+    x_2 = l_Ritsuryo_laws___closed__63();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -5689,7 +5999,7 @@ unsafe fn l_Ritsuryo_laws___closed__93_init() -> Obj {
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_laws___closed__92();
-    x_2 = l_Ritsuryo_laws___closed__27();
+    x_2 = l_Ritsuryo_laws___closed__67();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -5720,7 +6030,7 @@ unsafe fn l_Ritsuryo_laws___closed__92_init() -> Obj {
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_laws___closed__91();
-    x_2 = l_Ritsuryo_laws___closed__31();
+    x_2 = l_Ritsuryo_laws___closed__71();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -5751,7 +6061,7 @@ unsafe fn l_Ritsuryo_laws___closed__91_init() -> Obj {
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_laws___closed__90();
-    x_2 = l_Ritsuryo_laws___closed__35();
+    x_2 = l_Ritsuryo_laws___closed__75();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -5782,7 +6092,7 @@ unsafe fn l_Ritsuryo_laws___closed__90_init() -> Obj {
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_laws___closed__89();
-    x_2 = l_Ritsuryo_laws___closed__39();
+    x_2 = l_Ritsuryo_laws___closed__79();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -5813,7 +6123,7 @@ unsafe fn l_Ritsuryo_laws___closed__89_init() -> Obj {
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_laws___closed__88();
-    x_2 = l_Ritsuryo_laws___closed__43();
+    x_2 = l_Ritsuryo_laws___closed__83();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -5843,8 +6153,8 @@ unsafe fn l_Ritsuryo_laws___closed__88_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_laws___closed__87();
-    x_2 = l_Ritsuryo_laws___closed__47();
+    x_1 = rt::lean_box(0);
+    x_2 = l_Ritsuryo_laws___closed__87();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -5874,12 +6184,15 @@ unsafe fn l_Ritsuryo_laws___closed__87_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_laws___closed__86();
-    x_2 = l_Ritsuryo_laws___closed__51();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
+    x_2 = l_Ritsuryo_laws___closed__85();
+    x_3 = l_Ritsuryo_laws___closed__84();
+    x_4 = rt::lean_alloc_ctor(0, 3, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_4, 0, x_3);
+    rt::lean_ctor_set(x_4, 1, x_2);
+    rt::lean_ctor_set(x_4, 2, x_1);
+    return x_4;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_laws___closed__87() -> Obj {
@@ -5903,14 +6216,8 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__87() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__86_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_laws___closed__85();
-    x_2 = l_Ritsuryo_laws___closed__55();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
+    x_1 = rt::lean_mk_string_unchecked("明治三十一年勅令第九十号", 36, 12);
+    return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_laws___closed__86() -> Obj {
@@ -5934,14 +6241,8 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__86() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__85_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_laws___closed__84();
-    x_2 = l_Ritsuryo_laws___closed__59();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
+    x_1 = rt::lean_mk_string_unchecked("131IO0000000090", 15, 15);
+    return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_laws___closed__85() -> Obj {
@@ -5965,14 +6266,8 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__85() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__84_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_laws___closed__83();
-    x_2 = l_Ritsuryo_laws___closed__63();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
+    x_1 = rt::lean_mk_string_unchecked("閏年ニ関スル件", 21, 7);
+    return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_laws___closed__84() -> Obj {
@@ -5998,12 +6293,15 @@ unsafe fn l_Ritsuryo_laws___closed__83_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
+    let mut x_4: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_laws___closed__82();
-    x_2 = l_Ritsuryo_laws___closed__67();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
+    x_2 = l_Ritsuryo_laws___closed__81();
+    x_3 = l_Ritsuryo_laws___closed__80();
+    x_4 = rt::lean_alloc_ctor(0, 3, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_4, 0, x_3);
+    rt::lean_ctor_set(x_4, 1, x_2);
+    rt::lean_ctor_set(x_4, 2, x_1);
+    return x_4;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_laws___closed__83() -> Obj {
@@ -6027,14 +6325,8 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__83() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__82_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_laws___closed__81();
-    x_2 = l_Ritsuryo_laws___closed__71();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
+    x_1 = rt::lean_mk_string_unchecked("明治五年太政官布告第三百三十七号", 48, 16);
+    return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_laws___closed__82() -> Obj {
@@ -6058,14 +6350,8 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__82() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__81_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_laws___closed__80();
-    x_2 = l_Ritsuryo_laws___closed__75();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
+    x_1 = rt::lean_mk_string_unchecked("105DF0000000337", 15, 15);
+    return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_laws___closed__81() -> Obj {
@@ -6089,14 +6375,8 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__81() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__80_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = rt::lean_box(0);
-    x_2 = l_Ritsuryo_laws___closed__79();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
+    x_1 = rt::lean_mk_string_unchecked("改暦ノ布告", 15, 5);
+    return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_laws___closed__80() -> Obj {
@@ -6154,7 +6434,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__79() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__78_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("明治三十一年勅令第九十号", 36, 12);
+    x_1 = rt::lean_mk_string_unchecked("昭和四十五年法律第十三号", 36, 12);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6179,7 +6459,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__78() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__77_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("131IO0000000090", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("345AC0000000013", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6204,7 +6484,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__77() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__76_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("閏年ニ関スル件", 21, 7);
+    x_1 = rt::lean_mk_string_unchecked("利率等の表示の年利建て移行に関する法律", 57, 19);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6263,7 +6543,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__75() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__74_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("明治五年太政官布告第三百三十七号", 48, 16);
+    x_1 = rt::lean_mk_string_unchecked("令和八年法律第十二号", 30, 10);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6288,7 +6568,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__74() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__73_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("105DF0000000337", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("508AC0000000012", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6313,7 +6593,11 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__73() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__72_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("改暦ノ布告", 15, 5);
+    x_1 = rt::lean_mk_string_unchecked(
+        "所得税法等の一部を改正する法律（令和8年法律第12号）",
+        75,
+        27,
+    );
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6372,7 +6656,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__71() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__70_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("昭和四十五年法律第十三号", 36, 12);
+    x_1 = rt::lean_mk_string_unchecked("令和五年法律第六十九号", 33, 11);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6397,7 +6681,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__70() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__69_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("345AC0000000013", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("505AC0000000069", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6422,7 +6706,11 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__69() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__68_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("利率等の表示の年利建て移行に関する法律", 57, 19);
+    x_1 = rt::lean_mk_string_unchecked(
+        "我が国の防衛力の抜本的な強化等のために必要な財源の確保に関する特別措置法",
+        108,
+        36,
+    );
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6481,7 +6769,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__67() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__66_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("令和八年法律第十二号", 30, 10);
+    x_1 = rt::lean_mk_string_unchecked("平成二十三年法律第百十七号", 39, 13);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6506,7 +6794,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__66() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__65_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("508AC0000000012", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("423AC0000000117", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6532,9 +6820,9 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__65() -> Obj {
 unsafe fn l_Ritsuryo_laws___closed__64_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     x_1 = rt::lean_mk_string_unchecked(
-        "所得税法等の一部を改正する法律（令和8年法律第12号）",
-        75,
-        27,
+        "東日本大震災からの復興のための施策を実施するために必要な財源の確保に関する特別措置法",
+        126,
+        42,
     );
     return x_1;
 }
@@ -6594,7 +6882,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__63() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__62_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("令和五年法律第六十九号", 33, 11);
+    x_1 = rt::lean_mk_string_unchecked("昭和三十二年法律第二十六号", 39, 13);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6619,7 +6907,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__62() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__61_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("505AC0000000069", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("332AC0000000026", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6644,11 +6932,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__61() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__60_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked(
-        "我が国の防衛力の抜本的な強化等のために必要な財源の確保に関する特別措置法",
-        108,
-        36,
-    );
+    x_1 = rt::lean_mk_string_unchecked("租税特別措置法", 21, 7);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6707,7 +6991,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__59() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__58_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("平成二十三年法律第百十七号", 39, 13);
+    x_1 = rt::lean_mk_string_unchecked("昭和二十五年法律第二百二十六号", 45, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6732,7 +7016,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__58() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__57_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("423AC0000000117", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("325AC0000000226", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6757,11 +7041,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__57() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__56_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked(
-        "東日本大震災からの復興のための施策を実施するために必要な財源の確保に関する特別措置法",
-        126,
-        42,
-    );
+    x_1 = rt::lean_mk_string_unchecked("地方税法", 12, 4);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6820,7 +7100,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__55() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__54_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("昭和三十二年法律第二十六号", 39, 13);
+    x_1 = rt::lean_mk_string_unchecked("昭和六十三年政令第三百六十号", 42, 14);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6845,7 +7125,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__54() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__53_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("332AC0000000026", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("363CO0000000360", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6870,7 +7150,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__53() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__52_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("租税特別措置法", 21, 7);
+    x_1 = rt::lean_mk_string_unchecked("消費税法施行令", 21, 7);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6929,7 +7209,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__51() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__50_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("昭和二十五年法律第二百二十六号", 45, 15);
+    x_1 = rt::lean_mk_string_unchecked("昭和六十三年法律第百八号", 36, 12);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6954,7 +7234,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__50() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__49_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("325AC0000000226", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("363AC0000000108", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -6979,7 +7259,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__49() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__48_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("地方税法", 12, 4);
+    x_1 = rt::lean_mk_string_unchecked("消費税法", 12, 4);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7038,7 +7318,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__47() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__46_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("昭和六十三年政令第三百六十号", 42, 14);
+    x_1 = rt::lean_mk_string_unchecked("昭和二十五年法律第七十三号", 39, 13);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7063,7 +7343,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__46() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__45_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("363CO0000000360", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("325AC0000000073", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7088,7 +7368,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__45() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__44_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("消費税法施行令", 21, 7);
+    x_1 = rt::lean_mk_string_unchecked("相続税法", 12, 4);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7147,7 +7427,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__43() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__42_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("昭和六十三年法律第百八号", 36, 12);
+    x_1 = rt::lean_mk_string_unchecked("昭和四十年法律第三十三号", 36, 12);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7172,7 +7452,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__42() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__41_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("363AC0000000108", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("340AC0000000033", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7197,7 +7477,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__41() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__40_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("消費税法", 12, 4);
+    x_1 = rt::lean_mk_string_unchecked("所得税法", 12, 4);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7256,7 +7536,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__39() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__38_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("昭和二十五年法律第七十三号", 39, 13);
+    x_1 = rt::lean_mk_string_unchecked("平成二十七年法律第三十三号", 39, 13);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7281,7 +7561,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__38() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__37_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("325AC0000000073", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("427AC0000000033", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7306,7 +7586,11 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__37() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__36_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("相続税法", 12, 4);
+    x_1 = rt::lean_mk_string_unchecked(
+        "令和三年東京オリンピック競技大会・東京パラリンピック競技大会特別措置法",
+        105,
+        35,
+    );
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7365,7 +7649,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__35() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__34_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("昭和四十年法律第三十三号", 36, 12);
+    x_1 = rt::lean_mk_string_unchecked("平成三十年法律第九十九号", 36, 12);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7390,7 +7674,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__34() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__33_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("340AC0000000033", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("430AC0000000099", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7415,7 +7699,11 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__33() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__32_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("所得税法", 12, 4);
+    x_1 = rt::lean_mk_string_unchecked(
+        "天皇の即位の日及び即位礼正殿の儀の行われる日を休日とする法律",
+        90,
+        30,
+    );
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7474,7 +7762,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__31() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__30_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("平成二十七年法律第三十三号", 39, 13);
+    x_1 = rt::lean_mk_string_unchecked("昭和二十三年法律第百七十八号", 42, 14);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7499,7 +7787,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__30() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__29_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("427AC0000000033", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("323AC1000000178", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7524,11 +7812,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__29() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__28_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked(
-        "令和三年東京オリンピック競技大会・東京パラリンピック競技大会特別措置法",
-        105,
-        35,
-    );
+    x_1 = rt::lean_mk_string_unchecked("国民の祝日に関する法律", 33, 11);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7587,7 +7871,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__27() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__26_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("平成三十年法律第九十九号", 36, 12);
+    x_1 = rt::lean_mk_string_unchecked("平成八年法律第百九号", 30, 10);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7612,7 +7896,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__26() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__25_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("430AC0000000099", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("408AC0000000109", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7637,11 +7921,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__25() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__24_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked(
-        "天皇の即位の日及び即位礼正殿の儀の行われる日を休日とする法律",
-        90,
-        30,
-    );
+    x_1 = rt::lean_mk_string_unchecked("民事訴訟法", 15, 5);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7700,7 +7980,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__23() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__22_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("昭和二十三年法律第百七十八号", 42, 14);
+    x_1 = rt::lean_mk_string_unchecked("昭和三十七年政令第百三十五号", 42, 14);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7725,7 +8005,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__22() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__21_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("323AC1000000178", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("337CO0000000135", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7750,7 +8030,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__21() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__20_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("国民の祝日に関する法律", 33, 11);
+    x_1 = rt::lean_mk_string_unchecked("国税通則法施行令", 24, 8);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7809,7 +8089,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__19() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__18_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("平成八年法律第百九号", 30, 10);
+    x_1 = rt::lean_mk_string_unchecked("昭和三十七年法律第六十六号", 39, 13);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7834,7 +8114,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__18() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__17_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("408AC0000000109", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("337AC0000000066", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7859,7 +8139,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__17() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__16_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("民事訴訟法", 15, 5);
+    x_1 = rt::lean_mk_string_unchecked("国税通則法", 15, 5);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7918,7 +8198,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__15() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__14_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("昭和三十七年政令第百三十五号", 42, 14);
+    x_1 = rt::lean_mk_string_unchecked("明治三十五年法律第五十号", 36, 12);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7943,7 +8223,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__14() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__13_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("337CO0000000135", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("135AC1000000050", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -7968,7 +8248,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__13() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__12_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("国税通則法施行令", 24, 8);
+    x_1 = rt::lean_mk_string_unchecked("年齢計算ニ関スル法律", 30, 10);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -8027,7 +8307,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__11() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__10_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("昭和三十七年法律第六十六号", 39, 13);
+    x_1 = rt::lean_mk_string_unchecked("明治二十九年法律第八十九号", 39, 13);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -8052,7 +8332,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__10() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__9_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("337AC0000000066", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("129AC0000000089", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -8077,7 +8357,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__9() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__8_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("国税通則法", 15, 5);
+    x_1 = rt::lean_mk_string_unchecked("民法", 6, 2);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -8136,7 +8416,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__7() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__6_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("明治三十五年法律第五十号", 36, 12);
+    x_1 = rt::lean_mk_string_unchecked("昭和二十三年法律第二百四十二号", 45, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -8161,7 +8441,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__6() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__5_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("135AC1000000050", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("323AC0000000242", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -8186,7 +8466,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__5() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__4_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("年齢計算ニ関スル法律", 30, 10);
+    x_1 = rt::lean_mk_string_unchecked("水産業協同組合法", 24, 8);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -8245,7 +8525,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__3() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__2_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("明治二十九年法律第八十九号", 39, 13);
+    x_1 = rt::lean_mk_string_unchecked("昭和二十六年政令第三百十九号", 42, 14);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -8270,7 +8550,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__2() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__1_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("129AC0000000089", 15, 15);
+    x_1 = rt::lean_mk_string_unchecked("326CO0000000319", 15, 15);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -8295,7 +8575,7 @@ pub(crate) unsafe fn l_Ritsuryo_laws___closed__1() -> Obj {
 )]
 unsafe fn l_Ritsuryo_laws___closed__0_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("民法", 6, 2);
+    x_1 = rt::lean_mk_string_unchecked("出入国管理及び難民認定法", 36, 12);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -24378,12 +24658,12 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeDelinquencyTax(mut x_1: Obj) -> Obj {
             }
             1 => {
                 x_15 = l_Ritsuryo_Cli_optDateJson(x_14);
-                rt::lean_inc_ref(x_4);
+                rt::lean_inc_ref(x_5);
                 x_16 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_16, 0, x_4);
+                rt::lean_ctor_set(x_16, 0, x_5);
                 rt::lean_ctor_set(x_16, 1, x_15);
                 x_17 = l_Ritsuryo_Cli_computeDelinquencyTax___closed__0();
-                x_18 = l_Ritsuryo_Cli_segmentsJson(x_5);
+                x_18 = l_Ritsuryo_Cli_segmentsJson(x_9);
                 x_19 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
                 rt::lean_ctor_set(x_19, 0, x_17);
                 rt::lean_ctor_set(x_19, 1, x_18);
@@ -24396,12 +24676,12 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeDelinquencyTax(mut x_1: Obj) -> Obj {
                 rt::lean_ctor_set(x_23, 1, x_22);
                 x_24 = rt::lean_unsigned_to_nat(9u32);
                 x_25 = rt::lean_mk_empty_array_with_capacity(x_24);
-                x_26 = rt::lean_array_push(x_25, x_6);
+                x_26 = rt::lean_array_push(x_25, x_3);
                 x_27 = rt::lean_array_push(x_26, x_12);
-                x_28 = rt::lean_array_push(x_27, x_3);
+                x_28 = rt::lean_array_push(x_27, x_4);
                 x_29 = rt::lean_array_push(x_28, x_8);
                 x_30 = rt::lean_array_push(x_29, x_7);
-                x_31 = rt::lean_array_push(x_30, x_11);
+                x_31 = rt::lean_array_push(x_30, x_6);
                 x_32 = rt::lean_array_push(x_31, x_16);
                 x_33 = rt::lean_array_push(x_32, x_19);
                 x_34 = rt::lean_array_push(x_33, x_23);
@@ -24409,7 +24689,7 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeDelinquencyTax(mut x_1: Obj) -> Obj {
                 rt::lean_ctor_set(x_35, 0, x_34);
                 x_36 = l_Ritsuryo_Cli_computeDelinquencyTax___closed__23();
                 x_37 = l_Ritsuryo_Cli_computeDelinquencyTax___closed__31();
-                x_38 = l_Ritsuryo_Cli_ratesDataJson(x_9);
+                x_38 = l_Ritsuryo_Cli_ratesDataJson(x_11);
                 x_39 = l_Ritsuryo_Cli_envelope(x_10, x_35, x_36, x_37, x_38);
                 x_40 = rt::lean_alloc_ctor(1, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
                 rt::lean_ctor_set(x_40, 0, x_39);
@@ -24876,15 +25156,15 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeDelinquencyTax(mut x_1: Obj) -> Obj {
                     0 => {
                         x_133 = rt::lean_box(0);
                         {
-                            let t_0 = x_122;
-                            let t_1 = x_132;
-                            let t_2 = x_100;
-                            let t_3 = x_116;
+                            let t_0 = x_116;
+                            let t_1 = x_122;
+                            let t_2 = x_132;
+                            let t_3 = x_131;
                             let t_4 = x_127;
                             let t_5 = x_125;
-                            let t_6 = x_83;
+                            let t_6 = x_100;
                             let t_7 = x_113;
-                            let t_8 = x_131;
+                            let t_8 = x_83;
                             let t_9 = x_120;
                             let t_10 = x_104;
                             let t_11 = x_133;
@@ -24965,15 +25245,15 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeDelinquencyTax(mut x_1: Obj) -> Obj {
             }
             14 => {
                 {
-                    let t_0 = x_122;
-                    let t_1 = x_132;
-                    let t_2 = x_100;
-                    let t_3 = x_116;
+                    let t_0 = x_116;
+                    let t_1 = x_122;
+                    let t_2 = x_132;
+                    let t_3 = x_131;
                     let t_4 = x_127;
                     let t_5 = x_125;
-                    let t_6 = x_83;
+                    let t_6 = x_100;
                     let t_7 = x_113;
-                    let t_8 = x_131;
+                    let t_8 = x_83;
                     let t_9 = x_120;
                     let t_10 = x_104;
                     let t_11 = x_140;
@@ -27921,9 +28201,9 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
     let mut x_16: Obj = rt::lean_box(0);
     let mut x_17: Obj = rt::lean_box(0);
     let mut x_19: Obj = rt::lean_box(0);
-    let mut x_20: u8 = 0;
+    let mut x_20: Obj = rt::lean_box(0);
     let mut x_21: Obj = rt::lean_box(0);
-    let mut x_22: Obj = rt::lean_box(0);
+    let mut x_22: u8 = 0;
     let mut x_23: Obj = rt::lean_box(0);
     let mut x_24: Obj = rt::lean_box(0);
     let mut x_25: Obj = rt::lean_box(0);
@@ -27960,8 +28240,8 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
     let mut x_58: Obj = rt::lean_box(0);
     let mut x_60: Obj = rt::lean_box(0);
     let mut x_61: Obj = rt::lean_box(0);
-    let mut x_62: u8 = 0;
-    let mut x_63: Obj = rt::lean_box(0);
+    let mut x_62: Obj = rt::lean_box(0);
+    let mut x_63: u8 = 0;
     let mut x_64: Obj = rt::lean_box(0);
     let mut x_65: Obj = rt::lean_box(0);
     let mut x_66: Obj = rt::lean_box(0);
@@ -27971,9 +28251,9 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
     let mut x_70: Obj = rt::lean_box(0);
     let mut x_71: Obj = rt::lean_box(0);
     let mut x_72: Obj = rt::lean_box(0);
-    let mut x_74: Obj = rt::lean_box(0);
+    let mut x_74: u8 = 0;
     let mut x_75: Obj = rt::lean_box(0);
-    let mut x_76: u8 = 0;
+    let mut x_76: Obj = rt::lean_box(0);
     let mut x_77: u8 = 0;
     let mut x_78: Obj = rt::lean_box(0);
     let mut x_79: Obj = rt::lean_box(0);
@@ -28003,9 +28283,9 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
     let mut x_103: Obj = rt::lean_box(0);
     let mut x_104: u8 = 0;
     let mut x_105: Obj = rt::lean_box(0);
-    let mut x_107: Obj = rt::lean_box(0);
+    let mut x_107: u8 = 0;
     let mut x_108: Obj = rt::lean_box(0);
-    let mut x_109: u8 = 0;
+    let mut x_109: Obj = rt::lean_box(0);
     let mut x_110: u8 = 0;
     let mut x_112: u8 = 0;
     let mut x_113: Obj = rt::lean_box(0);
@@ -28109,25 +28389,25 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
             }
             1 => {
                 rt::lean_inc_ref(x_8);
-                rt::lean_inc_ref(x_5);
+                rt::lean_inc_ref(x_6);
                 x_9 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_9, 0, x_5);
+                rt::lean_ctor_set(x_9, 0, x_6);
                 rt::lean_ctor_set(x_9, 1, x_8);
                 x_10 = rt::lean_box(0);
                 x_11 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
                 rt::lean_ctor_set(x_11, 0, x_9);
                 rt::lean_ctor_set(x_11, 1, x_10);
-                rt::lean_inc_ref(x_3);
+                rt::lean_inc_ref(x_4);
                 x_12 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_12, 0, x_3);
+                rt::lean_ctor_set(x_12, 0, x_4);
                 rt::lean_ctor_set(x_12, 1, x_11);
-                rt::lean_inc_ref(x_7);
+                rt::lean_inc_ref(x_5);
                 x_13 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_13, 0, x_7);
+                rt::lean_ctor_set(x_13, 0, x_5);
                 rt::lean_ctor_set(x_13, 1, x_12);
                 x_14 = l_Ritsuryo_Cli_computeInvoiceTax___closed__3();
                 x_15 = rt::lean_box(0);
-                x_16 = l_Ritsuryo_Cli_envelope(x_4, x_6, x_13, x_14, x_15);
+                x_16 = l_Ritsuryo_Cli_envelope(x_3, x_7, x_13, x_14, x_15);
                 x_17 = rt::lean_alloc_ctor(1, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
                 rt::lean_ctor_set(x_17, 0, x_16);
                 return x_17;
@@ -28135,20 +28415,20 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
             2 => {
                 x_26 = rt::lean_alloc_ctor(3, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
                 rt::lean_ctor_set(x_26, 0, x_25);
-                rt::lean_inc_ref(x_19);
+                rt::lean_inc_ref(x_23);
                 x_27 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_27, 0, x_19);
+                rt::lean_ctor_set(x_27, 0, x_23);
                 rt::lean_ctor_set(x_27, 1, x_26);
                 x_28 = l_Ritsuryo_Cli_computeInvoiceTax___closed__4();
                 x_29 = rt::lean_alloc_ctor(4, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_29, 0, x_23);
+                rt::lean_ctor_set(x_29, 0, x_20);
                 x_30 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
                 rt::lean_ctor_set(x_30, 0, x_28);
                 rt::lean_ctor_set(x_30, 1, x_29);
                 x_31 = rt::lean_unsigned_to_nat(4u32);
                 x_32 = rt::lean_mk_empty_array_with_capacity(x_31);
-                x_33 = rt::lean_array_push(x_32, x_22);
-                x_34 = rt::lean_array_push(x_33, x_21);
+                x_33 = rt::lean_array_push(x_32, x_24);
+                x_34 = rt::lean_array_push(x_33, x_19);
                 x_35 = rt::lean_array_push(x_34, x_27);
                 x_36 = rt::lean_array_push(x_35, x_30);
                 x_37 = rt::lean_alloc_ctor(5, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
@@ -28156,15 +28436,15 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
                 x_38 = l_Ritsuryo_Cli_computeInvoiceTax___closed__7();
                 x_39 = l_Ritsuryo_Cli_computeInvoiceTax___closed__10();
                 x_40 = l_Ritsuryo_Cli_computeInvoiceTax___closed__11();
-                match x_20 as u32 {
+                match x_22 as u32 {
                     0 => {
                         x_41 = l_Ritsuryo_Cli_computeInvoiceTax___closed__12();
                         {
-                            let t_0 = x_39;
-                            let t_1 = x_24;
-                            let t_2 = x_40;
-                            let t_3 = x_37;
-                            let t_4 = x_38;
+                            let t_0 = x_21;
+                            let t_1 = x_39;
+                            let t_2 = x_38;
+                            let t_3 = x_40;
+                            let t_4 = x_37;
                             let t_5 = x_41;
                             x_3 = t_0;
                             x_4 = t_1;
@@ -28179,11 +28459,11 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
                     1 => {
                         x_42 = l_Ritsuryo_Cli_computeInvoiceTax___closed__13();
                         {
-                            let t_0 = x_39;
-                            let t_1 = x_24;
-                            let t_2 = x_40;
-                            let t_3 = x_37;
-                            let t_4 = x_38;
+                            let t_0 = x_21;
+                            let t_1 = x_39;
+                            let t_2 = x_38;
+                            let t_3 = x_40;
+                            let t_4 = x_37;
                             let t_5 = x_42;
                             x_3 = t_0;
                             x_4 = t_1;
@@ -28229,13 +28509,13 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
                 x_68 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
                 rt::lean_ctor_set(x_68, 0, x_58);
                 rt::lean_ctor_set(x_68, 1, x_67);
-                match rt::lean_obj_tag(x_61) {
+                match rt::lean_obj_tag(x_60) {
                     0 => {
                         x_69 = l_Ritsuryo_Cli_computeInvoiceTax___closed__16();
                         {
-                            let t_0 = x_60;
-                            let t_1 = x_62;
-                            let t_2 = x_68;
+                            let t_0 = x_68;
+                            let t_1 = x_61;
+                            let t_2 = x_62;
                             let t_3 = x_63;
                             let t_4 = x_64;
                             let t_5 = x_65;
@@ -28252,13 +28532,13 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
                         continue 'body;
                     }
                     1 => {
-                        x_70 = rt::lean_ctor_get(x_61, 0);
+                        x_70 = rt::lean_ctor_get(x_60, 0);
                         rt::lean_inc(x_70);
-                        rt::lean_dec_ref(x_61);
+                        rt::lean_dec_ref(x_60);
                         {
-                            let t_0 = x_60;
-                            let t_1 = x_62;
-                            let t_2 = x_68;
+                            let t_0 = x_68;
+                            let t_1 = x_61;
+                            let t_2 = x_62;
                             let t_3 = x_63;
                             let t_4 = x_64;
                             let t_5 = x_65;
@@ -28279,7 +28559,7 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
             }
             6 => {
                 rt::lean_inc(x_56);
-                x_78 = l_Ritsuryo_Tax_Consumption_invoiceTax(x_77, x_76, x_56);
+                x_78 = l_Ritsuryo_Tax_Consumption_invoiceTax(x_77, x_74, x_56);
                 rt::lean_inc(x_78);
                 x_79 = rt::lean_array_mk(x_78);
                 x_80 = rt::lean_array_size(x_79);
@@ -28318,7 +28598,7 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
                 x_101 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
                 rt::lean_ctor_set(x_101, 0, x_97);
                 rt::lean_ctor_set(x_101, 1, x_100);
-                x_102 = l_Ritsuryo_Tax_Consumption_PriceBasis_ctorIdx(x_76);
+                x_102 = l_Ritsuryo_Tax_Consumption_PriceBasis_ctorIdx(x_74);
                 x_103 = l_Ritsuryo_Cli_computeInvoiceTax___closed__20();
                 x_104 = rt::lean_nat_dec_eq(x_102, x_103);
                 rt::lean_dec(x_102);
@@ -28326,12 +28606,12 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
                     0 => {
                         x_105 = l_Ritsuryo_Cli_computeInvoiceTax___closed__21();
                         {
-                            let t_0 = x_74;
-                            let t_1 = x_75;
-                            let t_2 = x_104;
-                            let t_3 = x_101;
-                            let t_4 = x_83;
-                            let t_5 = x_96;
+                            let t_0 = x_75;
+                            let t_1 = x_83;
+                            let t_2 = x_96;
+                            let t_3 = x_104;
+                            let t_4 = x_76;
+                            let t_5 = x_101;
                             let t_6 = x_105;
                             x_60 = t_0;
                             x_61 = t_1;
@@ -28346,12 +28626,12 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
                     }
                     1 => {
                         {
-                            let t_0 = x_74;
-                            let t_1 = x_75;
-                            let t_2 = x_104;
-                            let t_3 = x_101;
-                            let t_4 = x_83;
-                            let t_5 = x_96;
+                            let t_0 = x_75;
+                            let t_1 = x_83;
+                            let t_2 = x_96;
+                            let t_3 = x_104;
+                            let t_4 = x_76;
+                            let t_5 = x_101;
                             let t_6 = x_72;
                             x_60 = t_0;
                             x_61 = t_1;
@@ -28399,9 +28679,9 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
                                 match x_119 as u32 {
                                     0 => {
                                         {
-                                            let t_0 = x_113;
+                                            let t_0 = x_112;
                                             let t_1 = x_114;
-                                            let t_2 = x_112;
+                                            let t_2 = x_113;
                                             x_107 = t_0;
                                             x_108 = t_1;
                                             x_109 = t_2;
@@ -28412,9 +28692,9 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
                                     1 => {
                                         x_120 = 2u8;
                                         {
-                                            let t_0 = x_113;
+                                            let t_0 = x_112;
                                             let t_1 = x_114;
-                                            let t_2 = x_112;
+                                            let t_2 = x_113;
                                             let t_3 = x_120;
                                             x_74 = t_0;
                                             x_75 = t_1;
@@ -28431,9 +28711,9 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
                                 rt::lean_dec(x_115);
                                 x_121 = 1u8;
                                 {
-                                    let t_0 = x_113;
+                                    let t_0 = x_112;
                                     let t_1 = x_114;
-                                    let t_2 = x_112;
+                                    let t_2 = x_113;
                                     let t_3 = x_121;
                                     x_74 = t_0;
                                     x_75 = t_1;
@@ -28448,9 +28728,9 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeInvoiceTax(mut x_1: Obj) -> Obj {
                     }
                     _ => {
                         {
-                            let t_0 = x_113;
+                            let t_0 = x_112;
                             let t_1 = x_114;
-                            let t_2 = x_112;
+                            let t_2 = x_113;
                             x_107 = t_0;
                             x_108 = t_1;
                             x_109 = t_2;
@@ -41338,7 +41618,7 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax(mut x_1: Obj) -> Obj {
     let mut x_32: Obj = rt::lean_box(0);
     let mut x_33: Obj = rt::lean_box(0);
     let mut x_34: Obj = rt::lean_box(0);
-    let mut x_35: Obj = rt::lean_box(0);
+    let mut x_36: Obj = rt::lean_box(0);
     let mut x_37: Obj = rt::lean_box(0);
     let mut x_38: Obj = rt::lean_box(0);
     let mut x_39: Obj = rt::lean_box(0);
@@ -41401,29 +41681,36 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax(mut x_1: Obj) -> Obj {
     let mut x_96: Obj = rt::lean_box(0);
     let mut x_97: Obj = rt::lean_box(0);
     let mut x_98: Obj = rt::lean_box(0);
-    let mut x_100: Obj = rt::lean_box(0);
-    let mut x_101: Obj = rt::lean_box(0);
+    let mut x_99: u8 = 0;
+    let mut x_101: u8 = 0;
     let mut x_102: Obj = rt::lean_box(0);
-    let mut x_103: u8 = 0;
+    let mut x_103: Obj = rt::lean_box(0);
     let mut x_104: Obj = rt::lean_box(0);
     let mut x_105: Obj = rt::lean_box(0);
+    let mut x_106: Obj = rt::lean_box(0);
     let mut x_107: Obj = rt::lean_box(0);
-    let mut x_108: Obj = rt::lean_box(0);
-    let mut x_109: u8 = 0;
+    let mut x_109: Obj = rt::lean_box(0);
+    let mut x_110: Obj = rt::lean_box(0);
     let mut x_111: Obj = rt::lean_box(0);
-    let mut x_112: Obj = rt::lean_box(0);
-    let mut x_113: u8 = 0;
+    let mut x_112: u8 = 0;
+    let mut x_113: Obj = rt::lean_box(0);
     let mut x_114: Obj = rt::lean_box(0);
-    let mut x_115: Obj = rt::lean_box(0);
     let mut x_116: Obj = rt::lean_box(0);
     let mut x_117: Obj = rt::lean_box(0);
-    let mut x_118: Obj = rt::lean_box(0);
     let mut x_119: Obj = rt::lean_box(0);
     let mut x_120: Obj = rt::lean_box(0);
+    let mut x_121: u8 = 0;
     let mut x_122: Obj = rt::lean_box(0);
     let mut x_123: Obj = rt::lean_box(0);
-    let mut x_124: u8 = 0;
+    let mut x_124: Obj = rt::lean_box(0);
     let mut x_125: Obj = rt::lean_box(0);
+    let mut x_126: Obj = rt::lean_box(0);
+    let mut x_127: Obj = rt::lean_box(0);
+    let mut x_128: Obj = rt::lean_box(0);
+    let mut x_130: Obj = rt::lean_box(0);
+    let mut x_131: Obj = rt::lean_box(0);
+    let mut x_132: u8 = 0;
+    let mut x_133: Obj = rt::lean_box(0);
     let mut __blk: u32 = 0;
     'body: loop {
         match __blk {
@@ -41433,12 +41720,12 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax(mut x_1: Obj) -> Obj {
                 match rt::lean_obj_tag(x_3) {
                     1 => {
                         x_4 = rt::lean_ctor_get(x_3, 0);
-                        x_124 = (!rt::lean_is_exclusive(x_3)) as u8;
-                        match x_124 as u32 {
+                        x_132 = (!rt::lean_is_exclusive(x_3)) as u8;
+                        match x_132 as u32 {
                             0 => {
                                 {
                                     let t_0 = x_3;
-                                    let t_1 = x_124;
+                                    let t_1 = x_132;
                                     x_6 = t_0;
                                     x_7 = t_1;
                                 }
@@ -41450,7 +41737,7 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax(mut x_1: Obj) -> Obj {
                                 rt::lean_dec(x_3);
                                 {
                                     let t_0 = rt::lean_box(0);
-                                    let t_1 = x_124;
+                                    let t_1 = x_132;
                                     x_6 = t_0;
                                     x_7 = t_1;
                                 }
@@ -41462,8 +41749,8 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax(mut x_1: Obj) -> Obj {
                     }
                     _ => {
                         rt::lean_dec(x_3);
-                        x_125 = l_Ritsuryo_Cli_computeIncomeTax___closed__51();
-                        return x_125;
+                        x_133 = l_Ritsuryo_Cli_computeIncomeTax___closed__54();
+                        return x_133;
                     }
                 }
             }
@@ -41482,57 +41769,57 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax(mut x_1: Obj) -> Obj {
                         x_17 = l_Ritsuryo_Tax_Income_reconstructionPermille(x_4);
                         x_18 = l_Ritsuryo_Tax_Income_defensePermille(x_4);
                         x_98 = rt::lean_unsigned_to_nat(0u32);
-                        x_109 = rt::lean_nat_dec_lt(x_98, x_17);
-                        match x_109 as u32 {
+                        x_99 = rt::lean_nat_dec_lt(x_98, x_17);
+                        match x_99 as u32 {
                             0 => {
-                                x_115 = rt::lean_box(0);
+                                x_123 = rt::lean_box(0);
                                 {
-                                    let t_0 = x_115;
-                                    x_111 = t_0;
+                                    let t_0 = x_123;
+                                    x_119 = t_0;
                                 }
-                                __blk = 6;
+                                __blk = 7;
                                 continue 'body;
                             }
                             1 => {
-                                x_116 = l_Ritsuryo_Cli_computeIncomeTax___closed__47();
+                                x_124 = l_Ritsuryo_Cli_computeIncomeTax___closed__50();
                                 {
-                                    let t_0 = x_116;
-                                    x_111 = t_0;
+                                    let t_0 = x_124;
+                                    x_119 = t_0;
                                 }
-                                __blk = 6;
+                                __blk = 7;
                                 continue 'body;
                             }
                             _ => rt::lean_internal_panic_unreachable(),
                         }
                     }
                     1 => {
-                        x_117 = l_Nat_reprFast(x_4);
-                        x_118 = l_Ritsuryo_Cli_computeIncomeTax___closed__48();
-                        x_119 = rt::lean_string_append(x_117, x_118);
-                        x_120 = l_Ritsuryo_Cli_domainError(x_119);
+                        x_125 = l_Nat_reprFast(x_4);
+                        x_126 = l_Ritsuryo_Cli_computeIncomeTax___closed__51();
+                        x_127 = rt::lean_string_append(x_125, x_126);
+                        x_128 = l_Ritsuryo_Cli_domainError(x_127);
                         match x_7 as u32 {
                             0 => {
                                 rt::lean_ctor_set_tag(x_6, 0);
-                                rt::lean_ctor_set(x_6, 0, x_120);
+                                rt::lean_ctor_set(x_6, 0, x_128);
                                 {
                                     let t_0 = x_6;
-                                    x_122 = t_0;
+                                    x_130 = t_0;
                                 }
-                                __blk = 7;
+                                __blk = 8;
                                 continue 'body;
                             }
                             1 => {
-                                x_123 = rt::lean_alloc_ctor(
+                                x_131 = rt::lean_alloc_ctor(
                                     0,
                                     1,
                                     0 * core::mem::size_of::<usize>() as u32 + 0,
                                 );
-                                rt::lean_ctor_set(x_123, 0, x_120);
+                                rt::lean_ctor_set(x_131, 0, x_128);
                                 {
-                                    let t_0 = x_123;
-                                    x_122 = t_0;
+                                    let t_0 = x_131;
+                                    x_130 = t_0;
                                 }
-                                __blk = 7;
+                                __blk = 8;
                                 continue 'body;
                             }
                             _ => rt::lean_internal_panic_unreachable(),
@@ -41565,17 +41852,15 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax(mut x_1: Obj) -> Obj {
                 x_32 = rt::lean_ctor_get(x_16, 10);
                 rt::lean_inc(x_32);
                 rt::lean_dec_ref(x_16);
-                rt::lean_inc(x_21);
-                x_33 = l_List_appendTR___redArg(x_20, x_21);
-                x_34 = l_Ritsuryo_Cli_computeIncomeTax___closed__4();
-                x_35 = rt::lean_nat_to_int(x_28);
+                x_33 = l_Ritsuryo_Cli_computeIncomeTax___closed__4();
+                x_34 = rt::lean_nat_to_int(x_28);
                 match x_7 as u32 {
                     0 => {
                         rt::lean_ctor_set_tag(x_6, 2);
-                        rt::lean_ctor_set(x_6, 0, x_35);
+                        rt::lean_ctor_set(x_6, 0, x_34);
                         {
                             let t_0 = x_6;
-                            x_37 = t_0;
+                            x_36 = t_0;
                         }
                         __blk = 3;
                         continue 'body;
@@ -41583,10 +41868,10 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax(mut x_1: Obj) -> Obj {
                     1 => {
                         x_97 =
                             rt::lean_alloc_ctor(2, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                        rt::lean_ctor_set(x_97, 0, x_35);
+                        rt::lean_ctor_set(x_97, 0, x_34);
                         {
                             let t_0 = x_97;
-                            x_37 = t_0;
+                            x_36 = t_0;
                         }
                         __blk = 3;
                         continue 'body;
@@ -41595,123 +41880,139 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax(mut x_1: Obj) -> Obj {
                 }
             }
             3 => {
-                x_38 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_38, 0, x_34);
-                rt::lean_ctor_set(x_38, 1, x_37);
-                x_39 = l_Ritsuryo_Cli_computeIncomeTax___closed__5();
-                x_40 = rt::lean_nat_to_int(x_29);
-                x_41 = rt::lean_alloc_ctor(2, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_41, 0, x_40);
-                x_42 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_42, 0, x_39);
-                rt::lean_ctor_set(x_42, 1, x_41);
-                x_43 = l_Ritsuryo_Cli_computeIncomeTax___closed__6();
-                x_44 = rt::lean_nat_to_int(x_30);
-                x_45 = rt::lean_alloc_ctor(2, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_45, 0, x_44);
-                x_46 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_46, 0, x_43);
-                rt::lean_ctor_set(x_46, 1, x_45);
-                x_47 = l_Ritsuryo_Cli_computeIncomeTax___closed__7();
-                x_48 = rt::lean_nat_to_int(x_31);
-                x_49 = rt::lean_alloc_ctor(2, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_49, 0, x_48);
-                x_50 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_50, 0, x_47);
-                rt::lean_ctor_set(x_50, 1, x_49);
-                x_51 = l_Ritsuryo_Cli_computeIncomeTax___closed__8();
-                x_52 = rt::lean_nat_to_int(x_32);
-                x_53 = rt::lean_alloc_ctor(2, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_53, 0, x_52);
-                x_54 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_54, 0, x_51);
-                rt::lean_ctor_set(x_54, 1, x_53);
-                x_55 = rt::lean_unsigned_to_nat(5u32);
-                x_56 = rt::lean_mk_empty_array_with_capacity(x_55);
-                x_57 = rt::lean_array_push(x_56, x_38);
-                x_58 = rt::lean_array_push(x_57, x_42);
-                x_59 = rt::lean_array_push(x_58, x_46);
-                x_60 = rt::lean_array_push(x_59, x_50);
-                x_61 = rt::lean_array_push(x_60, x_54);
-                x_62 = rt::lean_alloc_ctor(5, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_62, 0, x_61);
-                x_63 = rt::lean_nat_to_int(x_4);
-                x_64 = rt::lean_alloc_ctor(2, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_64, 0, x_63);
-                x_65 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_65, 0, x_2);
-                rt::lean_ctor_set(x_65, 1, x_64);
-                x_66 = l_Ritsuryo_Cli_incomeLine(x_11, x_22, x_25);
-                x_67 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_67, 0, x_10);
-                rt::lean_ctor_set(x_67, 1, x_66);
-                x_68 = l_Ritsuryo_Cli_incomeLine(x_13, x_23, x_26);
-                x_69 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_69, 0, x_12);
-                rt::lean_ctor_set(x_69, 1, x_68);
-                x_70 = l_Ritsuryo_Cli_incomeLine(x_15, x_24, x_27);
-                x_71 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_71, 0, x_14);
-                rt::lean_ctor_set(x_71, 1, x_70);
-                x_72 = l_Ritsuryo_Cli_computeIncomeTax___closed__9();
-                x_73 = l_Ritsuryo_Cli_tenthsPercent(x_17);
+                x_37 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_37, 0, x_33);
+                rt::lean_ctor_set(x_37, 1, x_36);
+                x_38 = l_Ritsuryo_Cli_computeIncomeTax___closed__5();
+                x_39 = rt::lean_nat_to_int(x_29);
+                x_40 = rt::lean_alloc_ctor(2, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_40, 0, x_39);
+                x_41 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_41, 0, x_38);
+                rt::lean_ctor_set(x_41, 1, x_40);
+                x_42 = l_Ritsuryo_Cli_computeIncomeTax___closed__6();
+                x_43 = rt::lean_nat_to_int(x_30);
+                x_44 = rt::lean_alloc_ctor(2, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_44, 0, x_43);
+                x_45 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_45, 0, x_42);
+                rt::lean_ctor_set(x_45, 1, x_44);
+                x_46 = l_Ritsuryo_Cli_computeIncomeTax___closed__7();
+                x_47 = rt::lean_nat_to_int(x_31);
+                x_48 = rt::lean_alloc_ctor(2, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_48, 0, x_47);
+                x_49 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_49, 0, x_46);
+                rt::lean_ctor_set(x_49, 1, x_48);
+                x_50 = l_Ritsuryo_Cli_computeIncomeTax___closed__8();
+                x_51 = rt::lean_nat_to_int(x_32);
+                x_52 = rt::lean_alloc_ctor(2, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_52, 0, x_51);
+                x_53 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_53, 0, x_50);
+                rt::lean_ctor_set(x_53, 1, x_52);
+                x_54 = rt::lean_unsigned_to_nat(5u32);
+                x_55 = rt::lean_mk_empty_array_with_capacity(x_54);
+                x_56 = rt::lean_array_push(x_55, x_37);
+                x_57 = rt::lean_array_push(x_56, x_41);
+                x_58 = rt::lean_array_push(x_57, x_45);
+                x_59 = rt::lean_array_push(x_58, x_49);
+                x_60 = rt::lean_array_push(x_59, x_53);
+                x_61 = rt::lean_alloc_ctor(5, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_61, 0, x_60);
+                x_62 = rt::lean_nat_to_int(x_4);
+                x_63 = rt::lean_alloc_ctor(2, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_63, 0, x_62);
+                x_64 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_64, 0, x_2);
+                rt::lean_ctor_set(x_64, 1, x_63);
+                x_65 = l_Ritsuryo_Cli_incomeLine(x_11, x_22, x_25);
+                x_66 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_66, 0, x_10);
+                rt::lean_ctor_set(x_66, 1, x_65);
+                x_67 = l_Ritsuryo_Cli_incomeLine(x_13, x_23, x_26);
+                x_68 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_68, 0, x_12);
+                rt::lean_ctor_set(x_68, 1, x_67);
+                x_69 = l_Ritsuryo_Cli_incomeLine(x_15, x_24, x_27);
+                x_70 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_70, 0, x_14);
+                rt::lean_ctor_set(x_70, 1, x_69);
+                x_71 = l_Ritsuryo_Cli_computeIncomeTax___closed__9();
+                x_72 = l_Ritsuryo_Cli_tenthsPercent(x_17);
                 rt::lean_dec(x_17);
-                x_74 = rt::lean_alloc_ctor(3, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_74, 0, x_73);
-                x_75 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_75, 0, x_72);
-                rt::lean_ctor_set(x_75, 1, x_74);
-                x_76 = l_Ritsuryo_Cli_computeIncomeTax___closed__10();
-                x_77 = l_Ritsuryo_Cli_tenthsPercent(x_18);
+                x_73 = rt::lean_alloc_ctor(3, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_73, 0, x_72);
+                x_74 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_74, 0, x_71);
+                rt::lean_ctor_set(x_74, 1, x_73);
+                x_75 = l_Ritsuryo_Cli_computeIncomeTax___closed__10();
+                x_76 = l_Ritsuryo_Cli_tenthsPercent(x_18);
                 rt::lean_dec(x_18);
-                x_78 = rt::lean_alloc_ctor(3, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_78, 0, x_77);
-                x_79 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_79, 0, x_76);
-                rt::lean_ctor_set(x_79, 1, x_78);
-                x_80 = rt::lean_unsigned_to_nat(6u32);
-                x_81 = rt::lean_mk_empty_array_with_capacity(x_80);
-                x_82 = rt::lean_array_push(x_81, x_65);
-                x_83 = rt::lean_array_push(x_82, x_67);
-                x_84 = rt::lean_array_push(x_83, x_69);
-                x_85 = rt::lean_array_push(x_84, x_71);
-                x_86 = rt::lean_array_push(x_85, x_75);
-                x_87 = rt::lean_array_push(x_86, x_79);
-                x_88 = rt::lean_alloc_ctor(5, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
-                rt::lean_ctor_set(x_88, 0, x_87);
+                x_77 = rt::lean_alloc_ctor(3, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_77, 0, x_76);
+                x_78 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_78, 0, x_75);
+                rt::lean_ctor_set(x_78, 1, x_77);
+                x_79 = rt::lean_unsigned_to_nat(6u32);
+                x_80 = rt::lean_mk_empty_array_with_capacity(x_79);
+                x_81 = rt::lean_array_push(x_80, x_64);
+                x_82 = rt::lean_array_push(x_81, x_66);
+                x_83 = rt::lean_array_push(x_82, x_68);
+                x_84 = rt::lean_array_push(x_83, x_70);
+                x_85 = rt::lean_array_push(x_84, x_74);
+                x_86 = rt::lean_array_push(x_85, x_78);
+                x_87 = rt::lean_alloc_ctor(5, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_87, 0, x_86);
+                x_88 = rt::lean_box(0);
                 x_89 = l_Ritsuryo_Cli_computeIncomeTax___closed__18();
-                x_90 = l_List_appendTR___redArg(x_89, x_33);
-                x_91 = l_Ritsuryo_Cli_computeIncomeTax___closed__21();
+                x_90 = l_List_appendTR___redArg(x_89, x_20);
+                rt::lean_inc_ref(x_21);
+                x_91 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+                rt::lean_ctor_set(x_91, 0, x_21);
+                rt::lean_ctor_set(x_91, 1, x_88);
                 x_92 = l_List_appendTR___redArg(x_90, x_91);
-                x_93 = l_Ritsuryo_Cli_computeIncomeTax___closed__31();
+                x_93 = l_Ritsuryo_Cli_computeIncomeTax___closed__28();
                 x_94 = rt::lean_box(0);
-                x_95 = l_Ritsuryo_Cli_envelope(x_62, x_88, x_92, x_93, x_94);
+                x_95 = l_Ritsuryo_Cli_envelope(x_61, x_87, x_92, x_93, x_94);
                 x_96 = rt::lean_alloc_ctor(1, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
                 rt::lean_ctor_set(x_96, 0, x_95);
                 return x_96;
             }
             4 => {
-                rt::lean_inc(x_101);
-                rt::lean_inc(x_100);
-                x_102 = l_List_appendTR___redArg(x_100, x_101);
-                x_103 = rt::lean_nat_dec_lt(x_98, x_18);
-                match x_103 as u32 {
-                    0 => {
-                        x_104 = rt::lean_box(0);
-                        {
-                            let t_0 = x_102;
-                            let t_1 = x_104;
-                            x_20 = t_0;
-                            x_21 = t_1;
+                rt::lean_inc(x_103);
+                x_104 = l_List_appendTR___redArg(x_102, x_103);
+                match x_101 as u32 {
+                    0 => match x_99 as u32 {
+                        0 => {
+                            x_105 = l_Ritsuryo_Cli_computeIncomeTax___closed__30();
+                            {
+                                let t_0 = x_104;
+                                let t_1 = x_105;
+                                x_20 = t_0;
+                                x_21 = t_1;
+                            }
+                            __blk = 2;
+                            continue 'body;
                         }
-                        __blk = 2;
-                        continue 'body;
-                    }
+                        1 => {
+                            x_106 = l_Ritsuryo_Cli_computeIncomeTax___closed__32();
+                            {
+                                let t_0 = x_104;
+                                let t_1 = x_106;
+                                x_20 = t_0;
+                                x_21 = t_1;
+                            }
+                            __blk = 2;
+                            continue 'body;
+                        }
+                        _ => rt::lean_internal_panic_unreachable(),
+                    },
                     1 => {
-                        x_105 = l_Ritsuryo_Cli_computeIncomeTax___closed__37();
+                        x_107 = l_Ritsuryo_Cli_computeIncomeTax___closed__34();
                         {
-                            let t_0 = x_102;
-                            let t_1 = x_105;
+                            let t_0 = x_104;
+                            let t_1 = x_107;
                             x_20 = t_0;
                             x_21 = t_1;
                         }
@@ -41722,46 +42023,81 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax(mut x_1: Obj) -> Obj {
                 }
             }
             5 => {
-                x_108 = rt::lean_box(0);
-                {
-                    let t_0 = x_107;
-                    let t_1 = x_108;
-                    x_100 = t_0;
-                    x_101 = t_1;
-                }
-                __blk = 4;
-                continue 'body;
-            }
-            6 => {
-                x_112 = rt::lean_unsigned_to_nat(2027u32);
-                x_113 = rt::lean_nat_dec_le(x_112, x_4);
-                match x_113 as u32 {
+                rt::lean_inc(x_110);
+                rt::lean_inc(x_109);
+                x_111 = l_List_appendTR___redArg(x_109, x_110);
+                x_112 = rt::lean_nat_dec_lt(x_98, x_18);
+                match x_112 as u32 {
                     0 => {
+                        x_113 = rt::lean_box(0);
                         {
-                            let t_0 = x_111;
-                            x_107 = t_0;
+                            let t_0 = x_112;
+                            let t_1 = x_111;
+                            let t_2 = x_113;
+                            x_101 = t_0;
+                            x_102 = t_1;
+                            x_103 = t_2;
                         }
-                        __blk = 5;
+                        __blk = 4;
                         continue 'body;
                     }
-                    1 => match x_109 as u32 {
+                    1 => {
+                        x_114 = l_Ritsuryo_Cli_computeIncomeTax___closed__40();
+                        {
+                            let t_0 = x_112;
+                            let t_1 = x_111;
+                            let t_2 = x_114;
+                            x_101 = t_0;
+                            x_102 = t_1;
+                            x_103 = t_2;
+                        }
+                        __blk = 4;
+                        continue 'body;
+                    }
+                    _ => rt::lean_internal_panic_unreachable(),
+                }
+            }
+            6 => {
+                x_117 = rt::lean_box(0);
+                {
+                    let t_0 = x_116;
+                    let t_1 = x_117;
+                    x_109 = t_0;
+                    x_110 = t_1;
+                }
+                __blk = 5;
+                continue 'body;
+            }
+            7 => {
+                x_120 = rt::lean_unsigned_to_nat(2027u32);
+                x_121 = rt::lean_nat_dec_le(x_120, x_4);
+                match x_121 as u32 {
+                    0 => {
+                        {
+                            let t_0 = x_119;
+                            x_116 = t_0;
+                        }
+                        __blk = 6;
+                        continue 'body;
+                    }
+                    1 => match x_99 as u32 {
                         0 => {
                             {
-                                let t_0 = x_111;
-                                x_107 = t_0;
+                                let t_0 = x_119;
+                                x_116 = t_0;
                             }
-                            __blk = 5;
+                            __blk = 6;
                             continue 'body;
                         }
                         1 => {
-                            x_114 = l_Ritsuryo_Cli_computeIncomeTax___closed__41();
+                            x_122 = l_Ritsuryo_Cli_computeIncomeTax___closed__44();
                             {
-                                let t_0 = x_111;
-                                let t_1 = x_114;
-                                x_100 = t_0;
-                                x_101 = t_1;
+                                let t_0 = x_119;
+                                let t_1 = x_122;
+                                x_109 = t_0;
+                                x_110 = t_1;
                             }
-                            __blk = 4;
+                            __blk = 5;
                             continue 'body;
                         }
                         _ => rt::lean_internal_panic_unreachable(),
@@ -41769,8 +42105,8 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax(mut x_1: Obj) -> Obj {
                     _ => rt::lean_internal_panic_unreachable(),
                 }
             }
-            7 => {
-                return x_122;
+            8 => {
+                return x_130;
             }
             _ => rt::lean_internal_panic_unreachable(),
         }
@@ -42812,192 +43148,12 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__11() -> Obj {
     unreachable_code,
     clippy::all
 )]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__21_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = rt::lean_box(0);
-    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__20();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__21() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__21_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__20_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__19();
-    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__14();
-    x_3 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__20() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__20_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__19_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("第119条第1項", 16, 8);
-    return x_1;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__19() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__19_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__31_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__30();
-    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__22();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__31() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__31_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__30_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__29();
-    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__23();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__30() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__30_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__29_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__28();
-    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__24();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__29() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__29_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
 unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__28_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__27();
-    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__25();
+    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__19();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -43027,8 +43183,8 @@ unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__27_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
-    x_1 = rt::lean_box(0);
-    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__26();
+    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__26();
+    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__20();
     x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -43056,12 +43212,14 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__27() -> Obj {
 )]
 unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__26_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked(
-        "Payable は所得税と特別所得税の合計の百円未満を切り捨てた額で、源泉徴収税額・予定納税額を引く前の額",
-        143,
-        53,
-    );
-    return x_1;
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__25();
+    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__21();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__26() -> Obj {
@@ -43085,12 +43243,14 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__26() -> Obj {
 )]
 unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__25_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked(
-        "復興特別所得税・防衛特別所得税は一円未満を切り捨てる",
-        78,
-        26,
-    );
-    return x_1;
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__24();
+    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__22();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__25() -> Obj {
@@ -43114,12 +43274,14 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__25() -> Obj {
 )]
 unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__24_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked(
-        "基準所得税額は第89条の税額とし、税額控除（配当控除・外国税額控除など）はないものとする",
-        128,
-        44,
-    );
-    return x_1;
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = rt::lean_box(0);
+    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__23();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__24() -> Obj {
@@ -43144,9 +43306,9 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__24() -> Obj {
 unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__23_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     x_1 = rt::lean_mk_string_unchecked(
-        "課税山林所得金額は、五分の一の金額に税率表を当てて五を掛ける（5 分 5 乗）",
-        107,
-        39,
+        "Payable は所得税と特別所得税の合計の百円未満を切り捨てた額で、源泉徴収税額・予定納税額を引く前の額",
+        143,
+        53,
     );
     return x_1;
 }
@@ -43173,9 +43335,9 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__23() -> Obj {
 unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__22_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     x_1 = rt::lean_mk_string_unchecked(
-        "入力は所得控除の後の課税総所得金額・課税退職所得金額・課税山林所得金額で、千円未満を切り捨てて税率表を当てる",
-        162,
-        54,
+        "復興特別所得税・防衛特別所得税は一円未満を切り捨てる",
+        78,
+        26,
     );
     return x_1;
 }
@@ -43199,140 +43361,22 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__22() -> Obj {
     unreachable_code,
     clippy::all
 )]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__37_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__36();
-    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__33();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__37() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__37_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__36_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = rt::lean_box(0);
-    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__35();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__36() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__36_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__35_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__34();
-    x_2 = l_Ritsuryo_Cli_defenseLaw___closed__0();
-    x_3 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__35() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__35_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__34_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("第5条の9", 11, 5);
-    return x_1;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__34() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__34_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_defenseLaw___closed__0_init() -> Obj {
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__21_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     x_1 = rt::lean_mk_string_unchecked(
-        "我が国の防衛力の抜本的な強化等のために必要な財源の確保に関する特別措置法",
-        108,
-        36,
+        "基準所得税額は第89条の税額とし、税額控除（配当控除・外国税額控除など）はないものとする",
+        128,
+        44,
     );
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_defenseLaw___closed__0() -> Obj {
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__21() -> Obj {
     thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
     if let Some(v) = CELL.with(|c| c.get().copied()) {
         return v;
     }
-    let v = l_Ritsuryo_Cli_defenseLaw___closed__0_init();
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__21_init();
     rt::lean_mark_persistent(v);
     CELL.with(|c| *c.get_or_init(|| v))
 }
@@ -43346,24 +43390,107 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_defenseLaw___closed__0() -> Obj {
     unreachable_code,
     clippy::all
 )]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__33_init() -> Obj {
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__20_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked(
+        "課税山林所得金額は、五分の一の金額に税率表を当てて五を掛ける（5 分 5 乗）",
+        107,
+        39,
+    );
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__20() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__20_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__19_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked(
+        "入力は所得控除の後の課税総所得金額・課税退職所得金額・課税山林所得金額で、千円未満を切り捨てて税率表を当てる",
+        162,
+        54,
+    );
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__19() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__19_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__30_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__32();
-    x_2 = l_Ritsuryo_Cli_defenseLaw___closed__0();
+    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__29();
+    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__14();
     x_3 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
     return x_3;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__33() -> Obj {
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__30() -> Obj {
     thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
     if let Some(v) = CELL.with(|c| c.get().copied()) {
         return v;
     }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__33_init();
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__30_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__29_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked("第119条第1項", 16, 8);
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__29() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__29_init();
     rt::lean_mark_persistent(v);
     CELL.with(|c| *c.get_or_init(|| v))
 }
@@ -43379,8 +43506,14 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__33() -> Obj {
 )]
 unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__32_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("第5条の5第1項", 18, 8);
-    return x_1;
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__31();
+    x_2 = l_Ritsuryo_Cli_reconstructionLaw___closed__0();
+    x_3 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__32() -> Obj {
@@ -43402,227 +43535,18 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__32() -> Obj {
     unreachable_code,
     clippy::all
 )]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__41_init() -> Obj {
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__31_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = rt::lean_box(0);
-    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__40();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__41() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__41_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__40_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__39();
-    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__38();
-    x_3 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__40() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__40_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__39_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("附則第88条第1項", 21, 9);
+    x_1 = rt::lean_mk_string_unchecked("第24条第2項", 15, 7);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__39() -> Obj {
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__31() -> Obj {
     thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
     if let Some(v) = CELL.with(|c| c.get().copied()) {
         return v;
     }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__39_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__38_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked(
-        "所得税法等の一部を改正する法律（令和8年法律第12号）",
-        75,
-        27,
-    );
-    return x_1;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__38() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__38_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__47_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__46();
-    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__43();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__47() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__47_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__46_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = rt::lean_box(0);
-    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__45();
-    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__46() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__46_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__45_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    let mut x_3: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__44();
-    x_2 = l_Ritsuryo_Cli_reconstructionLaw___closed__0();
-    x_3 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_3, 0, x_2);
-    rt::lean_ctor_set(x_3, 1, x_1);
-    return x_3;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__45() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__45_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__44_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("第13条", 8, 4);
-    return x_1;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__44() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__44_init();
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__31_init();
     rt::lean_mark_persistent(v);
     CELL.with(|c| *c.get_or_init(|| v))
 }
@@ -43665,12 +43589,302 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_reconstructionLaw___closed__0() -> Obj {
     unreachable_code,
     clippy::all
 )]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__34_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__33();
+    x_2 = l_Ritsuryo_Cli_defenseLaw___closed__0();
+    x_3 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__34() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__34_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__33_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked("第5条の22第2項", 19, 9);
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__33() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__33_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_defenseLaw___closed__0_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked(
+        "我が国の防衛力の抜本的な強化等のために必要な財源の確保に関する特別措置法",
+        108,
+        36,
+    );
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_defenseLaw___closed__0() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_defenseLaw___closed__0_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__40_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__39();
+    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__36();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__40() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__40_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__39_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = rt::lean_box(0);
+    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__38();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__39() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__39_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__38_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__37();
+    x_2 = l_Ritsuryo_Cli_defenseLaw___closed__0();
+    x_3 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__38() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__38_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__37_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked("第5条の9", 11, 5);
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__37() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__37_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__36_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__35();
+    x_2 = l_Ritsuryo_Cli_defenseLaw___closed__0();
+    x_3 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__36() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__36_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__35_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked("第5条の5第1項", 18, 8);
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__35() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__35_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__44_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = rt::lean_box(0);
+    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__43();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__44() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__44_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
 unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__43_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     let mut x_2: Obj = rt::lean_box(0);
     let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__42();
-    x_2 = l_Ritsuryo_Cli_reconstructionLaw___closed__0();
+    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__41();
     x_3 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
     rt::lean_ctor_set(x_3, 0, x_2);
     rt::lean_ctor_set(x_3, 1, x_1);
@@ -43698,7 +43912,7 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__43() -> Obj {
 )]
 unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__42_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("第9条第1項", 14, 6);
+    x_1 = rt::lean_mk_string_unchecked("附則第88条第1項", 21, 9);
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
@@ -43721,50 +43935,22 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__42() -> Obj {
     unreachable_code,
     clippy::all
 )]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__48_init() -> Obj {
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__41_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     x_1 = rt::lean_mk_string_unchecked(
-        " 年分は扱えない。所得税法第89条の現行の税率表は平成27年分（2015 年分）以後に適用される",
-        124,
-        48,
+        "所得税法等の一部を改正する法律（令和8年法律第12号）",
+        75,
+        27,
     );
     return x_1;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__48() -> Obj {
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__41() -> Obj {
     thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
     if let Some(v) = CELL.with(|c| c.get().copied()) {
         return v;
     }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__48_init();
-    rt::lean_mark_persistent(v);
-    CELL.with(|c| *c.get_or_init(|| v))
-}
-
-#[allow(
-    dead_code,
-    non_snake_case,
-    unused_mut,
-    unused_assignments,
-    unused_variables,
-    unreachable_code,
-    clippy::all
-)]
-unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__51_init() -> Obj {
-    let mut x_1: Obj = rt::lean_box(0);
-    let mut x_2: Obj = rt::lean_box(0);
-    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__50();
-    x_2 = rt::lean_alloc_ctor(0, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
-    rt::lean_ctor_set(x_2, 0, x_1);
-    return x_2;
-}
-#[allow(dead_code, non_snake_case, clippy::all)]
-pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__51() -> Obj {
-    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
-    if let Some(v) = CELL.with(|c| c.get().copied()) {
-        return v;
-    }
-    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__51_init();
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__41_init();
     rt::lean_mark_persistent(v);
     CELL.with(|c| *c.get_or_init(|| v))
 }
@@ -43781,9 +43967,13 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__51() -> Obj {
 unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__50_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
     let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
     x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__49();
-    x_2 = l_Ritsuryo_Cli_usageError(x_1);
-    return x_2;
+    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__46();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__50() -> Obj {
@@ -43807,8 +43997,14 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__50() -> Obj {
 )]
 unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__49_init() -> Obj {
     let mut x_1: Obj = rt::lean_box(0);
-    x_1 = rt::lean_mk_string_unchecked("--tax-year は必須", 20, 14);
-    return x_1;
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = rt::lean_box(0);
+    x_2 = l_Ritsuryo_Cli_computeIncomeTax___closed__48();
+    x_3 = rt::lean_alloc_ctor(1, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
 }
 #[allow(dead_code, non_snake_case, clippy::all)]
 pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__49() -> Obj {
@@ -43817,6 +44013,227 @@ pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__49() -> Obj {
         return v;
     }
     let v = l_Ritsuryo_Cli_computeIncomeTax___closed__49_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__48_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__47();
+    x_2 = l_Ritsuryo_Cli_reconstructionLaw___closed__0();
+    x_3 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__48() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__48_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__47_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked("第13条", 8, 4);
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__47() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__47_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__46_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    let mut x_3: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__45();
+    x_2 = l_Ritsuryo_Cli_reconstructionLaw___closed__0();
+    x_3 = rt::lean_alloc_ctor(0, 2, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_3, 0, x_2);
+    rt::lean_ctor_set(x_3, 1, x_1);
+    return x_3;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__46() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__46_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__45_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked("第9条第1項", 14, 6);
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__45() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__45_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__51_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked(
+        " 年分は扱えない。所得税法第89条の現行の税率表は平成27年分（2015 年分）以後に適用される",
+        124,
+        48,
+    );
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__51() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__51_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__54_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__53();
+    x_2 = rt::lean_alloc_ctor(0, 1, 0 * core::mem::size_of::<usize>() as u32 + 0);
+    rt::lean_ctor_set(x_2, 0, x_1);
+    return x_2;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__54() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__54_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__53_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    let mut x_2: Obj = rt::lean_box(0);
+    x_1 = l_Ritsuryo_Cli_computeIncomeTax___closed__52();
+    x_2 = l_Ritsuryo_Cli_usageError(x_1);
+    return x_2;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__53() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__53_init();
+    rt::lean_mark_persistent(v);
+    CELL.with(|c| *c.get_or_init(|| v))
+}
+
+#[allow(
+    dead_code,
+    non_snake_case,
+    unused_mut,
+    unused_assignments,
+    unused_variables,
+    unreachable_code,
+    clippy::all
+)]
+unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__52_init() -> Obj {
+    let mut x_1: Obj = rt::lean_box(0);
+    x_1 = rt::lean_mk_string_unchecked("--tax-year は必須", 20, 14);
+    return x_1;
+}
+#[allow(dead_code, non_snake_case, clippy::all)]
+pub(crate) unsafe fn l_Ritsuryo_Cli_computeIncomeTax___closed__52() -> Obj {
+    thread_local! { static CELL: core::cell::OnceCell<Obj> = const { core::cell::OnceCell::new() }; }
+    if let Some(v) = CELL.with(|c| c.get().copied()) {
+        return v;
+    }
+    let v = l_Ritsuryo_Cli_computeIncomeTax___closed__52_init();
     rt::lean_mark_persistent(v);
     CELL.with(|c| *c.get_or_init(|| v))
 }
