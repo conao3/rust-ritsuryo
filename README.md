@@ -89,7 +89,7 @@ make check-generated  # generate, then fail if the committed Rust differs
 make web-dist         # the web page in dist/ (nix build .#web builds the same)
 ```
 
-`make check` runs [lean-assay](https://github.com/conao3/lean-assay) on the public Lean APIs
+`make check` runs [leanassay](https://github.com/conao3/lean-leanassay) on the public Lean APIs
 to check that their theorems reject broken implementations; audit warnings fail the build.
 The audited properties and the serialization-only exception are listed in [AGENTS.md](AGENTS.md).
 

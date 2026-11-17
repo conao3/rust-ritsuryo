@@ -25,7 +25,7 @@ Rust handles API types, JSON conversion and WebAssembly integration. The depende
 - `incomeTax_ordinary_spec`: ordinary income tax agrees with the statutory progressive sum.
 - `incomeTax_timber_spec`: timber income tax agrees with the statutory five-part calculation.
 
-`audit/` is a separate Lake package requiring `../lean` and a pinned lean-assay revision.
+`audit/` is a separate Lake package requiring `../lean` and a pinned leanassay revision.
 It audits `invoke`, `isHoliday`, `holidayYearInRange`, `holidays` and `incomeTax`.
 The audit generates 14 mutants: 10 killed, 0 holes, 0 untested, 4 equivalent, 0 timed out
 and 0 stillborn (failed elaboration or execution). Per function:
@@ -57,7 +57,7 @@ this check. Add a useful theorem and an audit entry with each computational API 
 
 ## Verification
 
-- `nix develop --command make check`: treefmt check, Lean proofs and their lean-assay audit,
+- `nix develop --command make check`: treefmt check, Lean proofs and their leanassay audit,
   clippy for the host and for `wasm32-unknown-unknown`, `cargo test`, and the wasm module under node.
 - `nix develop --command make check-generated`: the Lean build (proofs included) and the
   generated Rust match the committed files.
