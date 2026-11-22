@@ -5,19 +5,19 @@ version: 'v0.0.3'
 workflows:
     '.github/workflows/ci.yml':
         - 'actions/checkout@v7.0.1'
-        - 'cachix/install-nix-action@v31.11.5'
+        - 'cachix/install-nix-action@v32.0.0'
     '.github/workflows/pages.yml':
         - 'actions/checkout@v7.0.1'
         - 'actions/deploy-pages@v5.0.1'
         - 'actions/upload-pages-artifact@v5.0.0'
-        - 'cachix/install-nix-action@v31.11.5'
+        - 'cachix/install-nix-action@v32.0.0'
     '.github/workflows/publish.yml':
         - 'actions/checkout@v7.0.1'
-        - 'cachix/install-nix-action@v31.11.5'
+        - 'cachix/install-nix-action@v32.0.0'
         - 'rust-lang/crates-io-auth-action@v1.0.6'
     '.github/workflows/release.yml':
         - 'actions/checkout@v7.0.1'
-        - 'cachix/install-nix-action@v31.11.5'
+        - 'cachix/install-nix-action@v32.0.0'
 dependencies:
     'actions/checkout@v7.0.1':
         ref: 'v7.0.1'
@@ -41,9 +41,9 @@ dependencies:
         repo_id: 496012378
         uses:
             - 'actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f'
-    'cachix/install-nix-action@v31.11.5':
-        ref: 'v31.11.5'
-        commit: 'sha1-3dc140bfc76c49fbd4dd958429132e3746bcb086'
+    'cachix/install-nix-action@v32.0.0':
+        ref: 'v32.0.0'
+        commit: 'sha1-bb0495a1086c46893eee56f32fd192dfe4a15bb9'
         owner_id: 36824654
         repo_id: 212301524
     'rust-lang/crates-io-auth-action@v1.0.6':

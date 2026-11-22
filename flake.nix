@@ -10,7 +10,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     leanfran = {
-      url = "github:conao3/lean-leanfran/e46c9e81b0cc92a6aa0997a8cb15b36d1d0f5438";
+      url = "github:conao3/lean-leanfran/16fa39a4bd8747ca4313b5e9120d42b7b650fb39";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
