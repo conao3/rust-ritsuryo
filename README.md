@@ -14,11 +14,11 @@
 </p>
 
 <p align="center">
-  <a href="https://conao3.github.io/rust-ritsuryo/">Web page</a> ·
-  <a href="https://crates.io/crates/ritsuryo">crates.io</a> ·
-  <a href="#use">Use</a> ·
-  <a href="#layout">Layout</a> ·
-  <a href="#development">Development</a> ·
+  <a href="https://conao3.github.io/rust-ritsuryo/">Web page</a> |
+  <a href="https://crates.io/crates/ritsuryo">crates.io</a> |
+  <a href="#use">Use</a> |
+  <a href="#layout">Layout</a> |
+  <a href="#development">Development</a> |
   <a href="https://github.com/conao3/lean-ritsuryo">lean-ritsuryo</a>
 </p>
 
