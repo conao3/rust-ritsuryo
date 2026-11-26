@@ -7,7 +7,7 @@ Rust, so this crate builds with cargo alone: it needs neither Lean nor a C compi
 
 ```toml
 [dependencies]
-ritsuryo = "0.1.0"
+ritsuryo = "0.1.1"
 ```
 
 ```rust

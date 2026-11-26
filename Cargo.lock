@@ -217,7 +217,7 @@ dependencies = [
 
 [[package]]
 name = "ritsuryo"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "leanfran",
  "serde_json",
@@ -225,7 +225,7 @@ dependencies = [
 
 [[package]]
 name = "ritsuryo-wasm"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "ritsuryo",
  "wasm-bindgen",

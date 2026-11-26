@@ -48,7 +48,7 @@ nix run github:conao3/rust-ritsuryo   # serves the web page on http://localhost:
 
 ```toml
 [dependencies]
-ritsuryo = "0.1.0"
+ritsuryo = "0.1.1"
 ```
 
 ```rust
