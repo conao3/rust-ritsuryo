@@ -102,7 +102,7 @@ and `make generate`.
 gh workflow run release.yml --ref master -f version_bump=patch
 ```
 
-The `Release` workflow bumps the version with `scripts/bump-version.sh`, runs `make check`, `make check-generated` and `nix build`, pushes the version commit and the `v<version>` tag, publishes `ritsuryo` to crates.io with trusted publishing, and creates the GitHub Release. Choose `minor` or `major` for a larger bump.
+The `Release` workflow bumps the version with `scripts/bump-version.sh`, verifies the crate, pushes the version commit and the `v<version>` tag, publishes `ritsuryo` to crates.io with trusted publishing, and creates the GitHub Release. Choose `minor` or `major` for a larger bump.
 
 ## License
 
