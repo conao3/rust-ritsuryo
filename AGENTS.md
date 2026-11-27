@@ -65,12 +65,15 @@ this check. Add a useful theorem and an audit entry with each computational API 
 - UI changes: serve `dist/` (`make web-dist`) and check the page in a browser, including the
   console.
 
-## Release
+## Release and deploy
 
 - `gh workflow run release.yml --ref master -f version_bump=patch` (or `minor`, `major`) releases:
   the workflow bumps the version, verifies the crate, pushes the version commit and the
   `v<version>` tag, publishes `ritsuryo` to crates.io, and creates the GitHub Release. Don't push
   release tags by hand.
+- `gh workflow run deploy-pages.yml --ref master` builds `nix build .#web` and deploys it to
+  GitHub Pages (https://conao3.github.io/rust-ritsuryo/) in the `github-pages` environment,
+  which only `master` can deploy to.
 
 ## Conventions
 
