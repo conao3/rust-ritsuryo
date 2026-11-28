@@ -44,6 +44,20 @@ To serve the page yourself:
 nix run github:conao3/rust-ritsuryo   # serves the web page on http://localhost:8080 (PORT to change)
 ```
 
+The screenshots show the page in its light theme with made-up inputs.
+
+Income tax on a taxable income, as a table:
+
+![The web page computing income tax for 2025 on 5,000,000 yen, with the result as a table](images/income-tax.png)
+
+Consumption tax of a qualified invoice with a standard-rate item and a reduced-rate item:
+
+![The web page computing the consumption tax of an invoice with two items at different rates](images/invoice-tax.png)
+
+The deadline for an appeal, rolled over past national holidays, as JSON:
+
+![The web page computing an appeal deadline that moves past national holidays, with the result as JSON](images/appeal-deadline.png)
+
 ### From Rust
 
 ```toml
