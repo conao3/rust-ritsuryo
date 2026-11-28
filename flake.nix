@@ -10,7 +10,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     leanfran = {
-      url = "github:conao3/lean-leanfran/16fa39a4bd8747ca4313b5e9120d42b7b650fb39";
+      url = "github:conao3/lean-leanfran/420a7dce66dda3cbfd03b884d453cb8de63a0fc6";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -81,7 +81,7 @@
             packages = [
               rust
               pkgs.lean4
-              inputs.leanfran.packages.${system}.rust-compiler
+              inputs.leanfran.packages.${system}.leanfran
               pkgs.wasm-bindgen-cli
               pkgs.binaryen
               pkgs.nodejs

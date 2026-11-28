@@ -1,4 +1,4 @@
-LEAN_RUST ?= leanfran
+LEAN_RUST ?= leanfran --lang rust
 WASM_TARGET := target/wasm32-unknown-unknown/release/ritsuryo_wasm.wasm
 WEB_DIST ?= dist
 
